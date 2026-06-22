@@ -12,43 +12,6 @@ void setup() {
   Serial.println("Starting write now.");
 
   // === Configuration Registers ===
-  
-  // writeRegister32(0x0084, 0x21E64020); // MOTOR_STARTUP1  10s align time
-  // writeRegister32(0x0086, 0x1CA52054); // funktioniert 8004 fehler motorstartup2 auto handoff enabled32
-  // writeRegister32(0x0088, 0x0A2A8B00); // CLOSED_LOOP1
-  // writeRegister32(0x008A, 0xA000AD79); // CLOSED_LOOP2 put A0000000 for no R and L given // Phase inductance 0.86mH,resistance 2.3ohm
-  // writeRegister32(0x008C, 0x00000000); // CLOSED_LOOP3 // auto BEMF 
-  // writeRegister32(0x008E, 0x0000012F); // CLOSED_LOOP4 // 2600 RPM
-  // writeRegister32(0x0090, 0x24A20100); // FAULT_CONFIG1  hw lock 1A220100 
-  // writeRegister32(0x0092, 0x00024003); // FAULT_CONFIG2 with deglitch time 4us 
-  // writeRegister32(0x00A4, 0x0800000A); // PIN_CONFIG
-  // writeRegister32(0x00A6, 0x00100005); // DEVICE_CONFIG1
-  // writeRegister32(0x00A8, 0x0000C000); // DEVICE_CONFIG2
-  // writeRegister32(0x00AA, 0x40104000); // PERI_CONFIG1
-  // writeRegister32(0x00AC, 0x80001000); // GD_CONFIG1
-  // writeRegister32(0x00AE, 0x00A00000); // GD_CONFIG2
-  // writeRegister32(0x00A0, 0x028E3010); // INT_ALGO_1 handoff 1.25V
-  // writeRegister32(0x00A2, 0x00000200); // INT_ALGO_2
-
-
-  // // redoing start
-  // writeRegister32(0x0084, 0x20C64020); // MOTOR_STARTUP1  Double Align, 500ms, 0.625A, 1A/s ramp
-  // writeRegister32(0x0086, 0x1CA52054); // MOTOR_STARTUP2  OL_ILIMIT=0.625A, ACC=100Hz/s, auto handoff at 10% MAX_SPEED
-  // writeRegister32(0x0088, 0x0A2A8700); // CLOSED_LOOP1    unchanged
-  // writeRegister32(0x008A, 0xA000C2A3); // CLOSED_LOOP2    RES=2.3ohm=0xC2, IND=0.86mH=0xA3
-  // writeRegister32(0x008C, 0x38800000); // CLOSED_LOOP3    BEMF=39.0mV/Hz(0x63) from KV=220
-  // writeRegister32(0x008E, 0x0000012F); // CLOSED_LOOP4    MAX_SPEED=303Hz=2597RPM
-  // writeRegister32(0x0090, 0x1A9A3120); // FAULT_CONFIG1   ILIMIT=0.625A, HW trip=1.25A, DEG=5ms, retry mode
-  // writeRegister32(0x0092, 0x00024003); // FAULT_CONFIG2   unchanged
-  // writeRegister32(0x00A4, 0x0800000A); // PIN_CONFIG      unchanged
-  // writeRegister32(0x00A6, 0x00100005); // DEVICE_CONFIG1  unchanged
-  // writeRegister32(0x00A8, 0x0000C000); // DEVICE_CONFIG2  unchanged
-  // writeRegister32(0x00AA, 0x40104000); // PERI_CONFIG1    unchanged
-  // writeRegister32(0x00AC, 0x80001000); // GD_CONFIG1      unchanged
-  // writeRegister32(0x00AE, 0x00A00000); // GD_CONFIG2      unchanged
-  // writeRegister32(0x00A0, 0x02823010); // INT_ALGO_1      unchanged
-  // writeRegister32(0x00A2, 0x00000200); // INT_ALGO_2      unchanged
-  // // redoing end
 
   // From TI GUI start
   writeRegister32(0x0084, 0x0B260340); // MOTOR_STARTUP1  
@@ -73,25 +36,6 @@ void setup() {
   pinMode(PC5, OUTPUT);
   digitalWrite(PC5, HIGH);
   // Direction end
-
-  //   //  EDITED TI GUI start
-  // writeRegister32(0x0084, 0x0B260340); // MOTOR_STARTUP1  
-  // writeRegister32(0x0086, 0x0B836004); // MOTOR_STARTUP2 
-  // writeRegister32(0x0088, 0x104187B8); // CLOSED_LOOP1    
-  // writeRegister32(0x008A, 0x0BACCCA9); // CLOSED_LOOP2    
-  // writeRegister32(0x008C, 0x22E15804); // CLOSED_LOOP3    
-  // writeRegister32(0x008E, 0x5FD7C12F); // CLOSED_LOOP4  i dont think this work right 
-  // writeRegister32(0x0090, 0x1A202087); // FAULT_CONFIG1   
-  // writeRegister32(0x0092, 0x75482340); // FAULT_CONFIG2   
-  // writeRegister32(0x00A4, 0x08000309); // PIN_CONFIG      
-  // writeRegister32(0x00A6, 0x05A00001); // DEVICE_CONFIG1  
-  // writeRegister32(0x00A8, 0x83E8F007); // DEVICE_CONFIG2  
-  // writeRegister32(0x00AA, 0x41CC5C00); // PERI_CONFIG1    
-  // writeRegister32(0x00AC, 0x0C041100); // GD_CONFIG1      
-  // writeRegister32(0x00AE, 0x01840000); // GD_CONFIG2      
-  // writeRegister32(0x00A0, 0x09448005); // INT_ALGO_1      
-  // writeRegister32(0x00A2, 0x000001E0); // INT_ALGO_2      
-  // //  EDITED TI GUI end
 
   Serial.println("Finish write in shadow now.");
 
