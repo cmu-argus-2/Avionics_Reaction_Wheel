@@ -63,11 +63,16 @@ void loop() {
   // writeRegister32(0x00EC, 0xCC000000);
 
   writeRegister32(0x00EC, speed);
+  uint32_t reg_read = readRegister32(0x00EC);
   // if (speed < 0x95C20000) {
   //   speed = speed + 0x00050000;
   // }
   
-  Serial.print("Speed: ");
+  // READ REGISTER TEST!!
+  Serial.print("Register 0xEC print: ");
+  Serial.println(reg_read, HEX);
+
+  Serial.print("Speed (for ref): ");
   Serial.println(speed, HEX);
 
   delay(2000); // Wait >300ms to allow EEPROM programming
@@ -117,6 +122,48 @@ void writeRegister32(uint16_t address, uint32_t data) {
     Serial.print("Write OK to 0x");
     Serial.println(address, HEX);
   }
+}
+
+uint32_t readRegister32(uint16_t address) {
+    // === Phase 1: Send control word (who to read from) ===
+    Wire.beginTransmission(MCF8315_I2C_ADDR);
+
+    Wire.write(0x90);                  // OP_R/W=1 (read), CRC=0, DLEN=01 (32-bit), MEM_SEC=0
+    delayMicroseconds(DELAY_US_BETWEEN_BYTES);
+    Wire.write(0x00);                  // MEM_PAGE=0
+    delayMicroseconds(DELAY_US_BETWEEN_BYTES);
+    Wire.write(address & 0xFF);        // register offset
+    delayMicroseconds(DELAY_US_BETWEEN_BYTES);
+
+    // false = repeated start (no stop condition), required by MCF8315C read protocol
+    uint8_t result = Wire.endTransmission(false);
+    if (result != 0) {
+        Serial.print("I2C read setup error at 0x");
+        Serial.print(address, HEX);
+        Serial.print(" -> code: ");
+        Serial.println(result);
+        return 0xFFFFFFFF; // sentinel value indicating failure
+    }
+
+    // === Phase 2: Repeated Start, read 4 bytes back ===
+    uint8_t received = Wire.requestFrom((uint8_t)MCF8315_I2C_ADDR, (uint8_t)4);
+    if (received != 4) {
+        Serial.print("I2C read incomplete at 0x");
+        Serial.print(address, HEX);
+        Serial.print(" got ");
+        Serial.print(received);
+        Serial.println(" bytes");
+        return 0xFFFFFFFF;
+    }
+
+    // LSB first, same as write
+    uint32_t val = 0;
+    val |= ((uint32_t)Wire.read());        // byte 0 - LSB
+    val |= ((uint32_t)Wire.read()) << 8;   // byte 1
+    val |= ((uint32_t)Wire.read()) << 16;  // byte 2
+    val |= ((uint32_t)Wire.read()) << 24;  // byte 3 - MSB
+
+    return val;
 }
 
 // Direction control - write to shadow register at runtime (no EEPROM burn needed)
