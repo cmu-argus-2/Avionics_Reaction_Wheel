@@ -25,17 +25,16 @@ void setup() {
   writeRegister32(0x00A4, 0x08000309); // PIN_CONFIG      
   writeRegister32(0x00A6, 0x05A00001); // DEVICE_CONFIG1  
   writeRegister32(0x00A8, 0x83E8F007); // DEVICE_CONFIG2  
-  writeRegister32(0x00AA, 0x41CC5C00); // PERI_CONFIG1    
+  writeRegister32(0x00AA, 0x41CC5C00); // PERI_CONFIG1    (default CW direction)
   writeRegister32(0x00AC, 0x0C041100); // GD_CONFIG1      
   writeRegister32(0x00AE, 0x01840000); // GD_CONFIG2      
   writeRegister32(0x00A0, 0x09448005); // INT_ALGO_1      
   writeRegister32(0x00A2, 0x000001E0); // INT_ALGO_2      
   // From TI GUI end
 
-  // Direction start
-  pinMode(PC5, OUTPUT);
-  digitalWrite(PC5, HIGH);
-  // Direction end
+  // Direction Set start
+  setDirectionCCW();
+  // Direction Set end
 
   Serial.println("Finish write in shadow now.");
 
@@ -118,4 +117,13 @@ void writeRegister32(uint16_t address, uint32_t data) {
     Serial.print("Write OK to 0x");
     Serial.println(address, HEX);
   }
+}
+
+// Direction control - write to shadow register at runtime (no EEPROM burn needed)
+void setDirectionCW() {
+    writeRegister32(0x00AA, 0x41CC5C00); // DIR_INPUT=1, clockwise
+}
+
+void setDirectionCCW() {
+    writeRegister32(0x00AA, 0x41D45C00); // DIR_INPUT=2, counter-clockwise
 }
