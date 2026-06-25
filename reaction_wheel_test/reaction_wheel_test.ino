@@ -47,7 +47,6 @@ void setup() {
   Wire.end();
 }
 
-// uint32_t speed = 0x86660000;
 // 0x8CCC0000
 // 0x93330000
 uint32_t speed = 0x86660000;
@@ -60,7 +59,6 @@ void loop() {
   Serial.println("Writing Speed.");
   // === Configuration Registers ===
   // writeRegister32(0x00EC, 0xCC000000); // MOTOR_STARTUP1 + force IPD, remove 1 for remove IPD
-  // writeRegister32(0x00EC, 0xCC000000);
 
   writeRegister32(0x00EC, speed);
   uint32_t reg_read = readRegister32(0x00EC);
@@ -73,6 +71,7 @@ void loop() {
   */
   Serial.print("reading from as5600 status reg: ");
   Serial.println(hall_read, HEX);
+  if (as5600MagnetDetected()) Serial.print("Magnet detected! :) \n");
   
   // READ REGISTER TEST!!
   Serial.print("Register 0xEC print: ");
@@ -175,6 +174,12 @@ void setDirectionCCW() {
     writeRegister32(0x00AA, 0x41D45C00); // DIR_INPUT=2, counter-clockwise
 }
 
+// Check magnet is present (STATUS register 0x0B, bit 5 = MD)
+bool as5600MagnetDetected() {
+  uint8_t status = as5600ReadByte(0x0B); // reads STATUS register on AS5600
+  return (status >> 5) & 1; // MD bit
+}
+
 // Read 1-byte register from AS5600
 uint8_t as5600ReadByte(uint8_t reg) {
     Wire.beginTransmission(AS5600_I2C_ADDR);
@@ -185,3 +190,4 @@ uint8_t as5600ReadByte(uint8_t reg) {
     if (Wire.available()) val |= Wire.read();
     return val;
 }
+
