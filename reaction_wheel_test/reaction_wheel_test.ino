@@ -64,9 +64,15 @@ void loop() {
 
   writeRegister32(0x00EC, speed);
   uint32_t reg_read = readRegister32(0x00EC);
-  // if (speed < 0x95C20000) {
-  //   speed = speed + 0x00050000;
-  // }
+  uint16_t hall_read = as5600ReadByte(0x0B);
+
+  /* Testing magent detection on encoder:
+      8 bit total;
+      bit5:MD, bit4:ML, bit3:MH  
+      MD:magnet detected; ML:magnet too weak; MH:magnet too strong
+  */
+  Serial.print("reading from as5600 status reg: ");
+  Serial.println(hall_read, HEX);
   
   // READ REGISTER TEST!!
   Serial.print("Register 0xEC print: ");
@@ -76,13 +82,6 @@ void loop() {
   Serial.println(speed, HEX);
 
   delay(2000); // Wait >300ms to allow EEPROM programming
-
-  // delay(100000);
-  // Serial.println("Slow here Speed.");
-  // writeRegister32(0x00EC, 0x80000000);
-  // delay(10000);
-
-  // Do nothing
 }
 
 // Write 32-bit to register
@@ -124,6 +123,7 @@ void writeRegister32(uint16_t address, uint32_t data) {
   }
 }
 
+// Read 32-bit from register
 uint32_t readRegister32(uint16_t address) {
     // === Phase 1: Send control word (who to read from) ===
     Wire.beginTransmission(MCF8315_I2C_ADDR);
@@ -173,4 +173,15 @@ void setDirectionCW() {
 
 void setDirectionCCW() {
     writeRegister32(0x00AA, 0x41D45C00); // DIR_INPUT=2, counter-clockwise
+}
+
+// Read 1-byte register from AS5600
+uint8_t as5600ReadByte(uint8_t reg) {
+    Wire.beginTransmission(AS5600_I2C_ADDR);
+    Wire.write(reg);
+    Wire.endTransmission(false);        // repeated start, per datasheet Figure 20
+    Wire.requestFrom((uint8_t)AS5600_I2C_ADDR, (uint8_t)1);
+    uint8_t val = 0;
+    if (Wire.available()) val |= Wire.read();
+    return val;
 }
