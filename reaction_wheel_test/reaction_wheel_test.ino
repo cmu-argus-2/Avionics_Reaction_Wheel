@@ -33,7 +33,7 @@ void setup() {
   // From TI GUI end
 
   // Direction Set start
-  setDirectionCCW();
+  // setDirectionCCW();
   // Direction Set end
 
   Serial.println("Finish write in shadow now.");
@@ -49,7 +49,7 @@ void setup() {
 
 // 0x8CCC0000
 // 0x93330000
-uint32_t speed = 0x86660000;
+uint32_t speed = 0x93330000; //0x86660000;
 // Abt 2600RPM (rated) speed = 0x95C20000
 void loop() {
   Wire.begin();
@@ -69,8 +69,8 @@ void loop() {
       bit5:MD, bit4:ML, bit3:MH  
       MD:magnet detected; ML:magnet too weak; MH:magnet too strong
   */
-  Serial.print("reading from as5600 status reg: ");
-  Serial.println(hall_read, HEX);
+  // Serial.print("reading from as5600 status reg: ");
+  // Serial.println(hall_read, HEX);
   if (as5600MagnetDetected()) Serial.print("Magnet detected! :) \n");
   
   // READ REGISTER TEST!!
@@ -79,6 +79,20 @@ void loop() {
 
   Serial.print("Speed (for ref): ");
   Serial.println(speed, HEX);
+
+  // Sample RPM every 100ms
+  unsigned long lastPrint = 0;
+  while (true) {
+      float rpm = as5600GetRPM();
+      unsigned long now = millis();
+      if (now - lastPrint >= 100) {
+          Serial.print("Angle: ");
+          Serial.print(as5600GetAngle());
+          Serial.print("  RPM: ");
+          Serial.println(rpm, 1);
+          lastPrint = now;
+      }
+  }
 
   delay(2000); // Wait >300ms to allow EEPROM programming
 }
@@ -191,3 +205,46 @@ uint8_t as5600ReadByte(uint8_t reg) {
     return val;
 }
 
+// testing this shit
+// TO DO: actually read angle values and calculate RPM 
+
+// Read 2-byte big-endian register from AS5600
+uint16_t as5600ReadWord(uint8_t reg) {
+    Wire.beginTransmission(AS5600_I2C_ADDR);
+    Wire.write(reg);
+    Wire.endTransmission(false);        // repeated start, per datasheet Figure 20
+    Wire.requestFrom((uint8_t)AS5600_I2C_ADDR, (uint8_t)2);
+    uint16_t val = 0;
+    if (Wire.available()) val  = (uint16_t)Wire.read() << 8; // MSB first
+    if (Wire.available()) val |= Wire.read();                 // then LSB
+    return val;
+}
+
+// Get raw angle 0-4095
+uint16_t as5600GetAngle() {
+    return as5600ReadWord(0x0E) & 0x0FFF; // mask to 12 bits
+}
+
+// Calculate RPM from angle change over time
+float as5600GetRPM() {
+    static uint16_t lastAngle = 0;
+    static unsigned long lastTime = 0;
+
+    uint16_t currentAngle = as5600GetAngle();
+    unsigned long now = micros();
+
+    // Handle wrap-around: 4095->0 (forward) or 0->4095 (backward)
+    int16_t delta = (int16_t)currentAngle - (int16_t)lastAngle;
+    if (delta >  2048) delta -= 4096; // wrapped CCW
+    if (delta < -2048) delta += 4096; // wrapped CW
+
+    unsigned long elapsed = now - lastTime; // microseconds
+
+    lastAngle = currentAngle;
+    lastTime = now;
+
+    if (elapsed == 0) return 0;
+
+    // (delta ticks / 4096 ticks per rev) / (elapsed us / 1,000,000) * 60 = RPM
+    return ((float)delta / 4096.0f) / ((float)elapsed / 1000000.0f) * 60.0f;
+}
