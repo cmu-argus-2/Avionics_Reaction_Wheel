@@ -13,12 +13,17 @@
 * Phase R = 2.3Ω, Phase L = 0.86mH, max current = 1A
 *
 * Speed commands (% of MAX_SPEED configured in CLOSED_LOOP4):
-* 0x86660000 = ~5% = ~780 RPM
-* 0x8CCC0000 = ~10% = ~1560 RPM
-* 0x93330000 = ~15% = ~2340 RPM
-* 0x95C20000 = ~17% = ~2600 RPM (rated)
+* 0x86660000 =  ~5% =  ~122 RPM
+* 0x8CCC0000 = ~10% =  ~266 RPM
+* 0x93330000 = ~15% =  ~410 RPM  (measured)
+* 0x99990000 = ~20% =  ~554 RPM
+* 0xA6660000 = ~30% =  ~842 RPM
+* 0xBFFF0000 = ~50% = ~1418 RPM
+* 0xDFFF0000 = ~75% = ~2138 RPM
+* 0xFFFF0000 = ~100% = ~2858 RPM
 * NOTE: Do not exceed ~17% — MAX_SPEED in CLOSED_LOOP4 is set too high
-* by the TI GUI (15583 RPM). Fix: change 0x008E to 0x5FD7C12F [DOESN'T WORK IDK WHY].
+* by the TI GUI (15583 RPM). 
+* [DOESN'T WORK IDK WHY] --> Fix: change 0x008E to 0x5FD7C12F.
 *
 * Direction (no EEPROM burn needed, takes effect immediately):
 * setDirectionCW() — clockwise
@@ -37,7 +42,7 @@
 // ── Speed Command ──────────────────────────────────────────────────────────
 // Format: bit31=OVERRIDE(1), bits30:16=DIGITAL_SPEED_CTRL (0–32767)
 // Speed % = DIGITAL_SPEED_CTRL / 32767 * 100
-uint32_t targetSpeed = 0x93330000;  // ~15% = ~2340 RPM
+uint32_t targetSpeed = 0xBFFF0000;
 
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -250,7 +255,6 @@ uint16_t as5600ReadWord(uint8_t reg) {
   if (Wire.available()) val |= Wire.read();                 // then LSB
   return val;
 }
-
 
 // STATUS reg 0x0B: bit5=MD (detected), bit4=ML (too weak), bit3=MH (too strong).
 // Requires diametric magnet, centered over chip, airgap 0.5–3mm.
