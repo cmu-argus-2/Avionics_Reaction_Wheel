@@ -1,4 +1,6 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "reaction_wheel") (type "KiCad") (uri "${KIPRJMOD}/Library/reaction_wheel.kicad_sym") (options "") (descr ""))
+	(lib (name "tps62902") (type "KiCad") (uri "C:/Users/arguscubesat/sidrisha/ul_TPS62902RPJR/KiCADv6/2026-07-13_19-34-33.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS62902RPJR_boost_converter") (type "KiCad") (uri "C:/Users/arguscubesat/sidrisha/ul_TPS61379QWRTERQ1/KiCADv6/2026-07-13_19-40-14.kicad_sym") (options "") (descr ""))
 )

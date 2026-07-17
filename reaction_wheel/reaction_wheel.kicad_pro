@@ -412,17 +412,26 @@
     "top_level_sheets": [
       {
         "filename": "reaction_wheel.kicad_sch",
-        "name": "Root",
+        "name": "Microcontoller",
         "uuid": "3eff537d-49a0-4056-9805-dac82285d05c"
+      },
+      {
+        "filename": "power.kicad_sch",
+        "name": "Power",
+        "uuid": "81c47766-b589-45c4-aff8-2388713973b5"
       }
     ],
-    "used_designators": "U1,D2-4,D6,#PWR1-11,#PWR45-50,R1-6,R27-30,C1-6",
+    "used_designators": "U1-9,#PWR1-31,#PWR45-50,#PWR59-60,#PWR63-64,D2-4,D6,J1-5,R1-8,R13,R27-30,R49-50,C1-9,C25,NT1,TP6",
     "variants": []
   },
   "sheets": [
     [
       "3eff537d-49a0-4056-9805-dac82285d05c",
-      "Root"
+      "Microcontoller"
+    ],
+    [
+      "81c47766-b589-45c4-aff8-2388713973b5",
+      "Power"
     ]
   ],
   "text_variables": {},
