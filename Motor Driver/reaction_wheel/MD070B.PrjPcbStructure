@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=MD070B_CONTROL.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=MD070B_CONTROL.SchDoc|FileName=MD070B_DRIVER.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=MD070B_CONTROL.SchDoc|FileName=MD070B_HARDWARE.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=MD070B_CONTROL.SchDoc|FileName=MD070B_INTERFACE.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=MD070B_CONTROL.SchDoc|FileName=MD070B_POWER_AND_CONNECTORS.SchDoc|SheetNumber=4
