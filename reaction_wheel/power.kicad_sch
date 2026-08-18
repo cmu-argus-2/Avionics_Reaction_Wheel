@@ -1394,7 +1394,7 @@
 		)
 		(uuid "26a82273-5ce7-4e7e-b529-a53ced3de48d")
 	)
-	(text "For C27 (10uF cap), select a ceramic capacitor rated for at least \n16V or 25V (X7R or X5R dielectric).\n Ceramic capacitors lose effective capacitance under \nDC bias voltage; a 10V-rated capacitor will drop below the\n minimum required capacitance when operating at 8V input."
+	(text "For C27 (10uF cap), select a ceramic capacitor rated for at least \n16V or 25V (X7R or X5R dielectric).\n Ceramic capacitors lose effective capacitance under \nDC bias voltage; a 10V-rated capacitor will drop below the\n minimum required capacitance when operating at 8V input.\n---> not sure if this is important? or needed? "
 		(exclude_from_sim no)
 		(at 199.39 38.608 0)
 		(effects

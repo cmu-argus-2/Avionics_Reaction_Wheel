@@ -5457,6 +5457,19 @@
 		)
 		(uuid "dbfed927-6357-434c-9ddc-ea538fdb8a11")
 	)
+	(text "Note: Not sure how the board-to-board connector interacts with this board? \nI think the only thing I need is VBATT, should I change the Battery to ADCS board \nconnector to the big board-to-board connector??"
+		(exclude_from_sim no)
+		(at 181.102 47.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ff9874a0-97ca-4b99-bc4f-11eaccbb8fbd")
+	)
 	(junction
 		(at 71.12 173.99)
 		(diameter 0)

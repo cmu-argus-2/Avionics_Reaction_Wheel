@@ -424,14 +424,14 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "reaction_wheel.kicad_sch",
-        "name": "Microcontoller (3-axis)",
-        "uuid": "3eff537d-49a0-4056-9805-dac82285d05c"
+        "filename": "microcontroller_(1-axis_rw).kicad_sch",
+        "name": "Microcontroller and Connectors (1-axis RW)",
+        "uuid": "d62f89dd-8e84-4fc8-babe-edd9fd9c68a8"
       },
       {
-        "filename": "microcontroller_(1-axis_rw).kicad_sch",
-        "name": "Microcontroller (1-axis RW)",
-        "uuid": "d62f89dd-8e84-4fc8-babe-edd9fd9c68a8"
+        "filename": "power.kicad_sch",
+        "name": "Power",
+        "uuid": "83c9da62-eccc-4dd3-8c41-467f1ce24646"
       }
     ],
     "used_designators": "U1-13,TP6,C1-44,D2-4,D6,#PWR1-84,J1-12,NT1,R1-40,R49-50,L1-6",
@@ -439,12 +439,12 @@
   },
   "sheets": [
     [
-      "3eff537d-49a0-4056-9805-dac82285d05c",
-      "Microcontoller (3-axis)"
+      "83c9da62-eccc-4dd3-8c41-467f1ce24646",
+      "Power"
     ],
     [
       "d62f89dd-8e84-4fc8-babe-edd9fd9c68a8",
-      "Microcontroller (1-axis RW)"
+      "Microcontroller and Connectors (1-axis RW)"
     ]
   ],
   "text_variables": {},
