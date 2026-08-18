@@ -4730,14 +4730,6 @@
 		(pin "1"
 			(uuid "3f117787-cce8-4096-a063-166da717ef10")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
@@ -4816,14 +4808,6 @@
 		(pin "1"
 			(uuid "7fecc333-0552-43f0-b4b2-db9166e8e9b0")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4898,14 +4882,6 @@
 		(pin "2"
 			(uuid "22f744d4-58f0-4f48-95f3-564f1749953a")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -4975,14 +4951,6 @@
 		)
 		(pin "1"
 			(uuid "c7b1fcab-600d-4f68-8c07-d70d500f8fbf")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5058,14 +5026,6 @@
 		(pin "2"
 			(uuid "b0032cb1-9ba0-4542-839d-8618bf08f80b")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5135,14 +5095,6 @@
 		)
 		(pin "1"
 			(uuid "0176190e-d21f-415b-b5c8-a5af39641f74")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5218,14 +5170,6 @@
 		(pin "1"
 			(uuid "1cda17c5-c365-46d5-a371-c5e625806bea")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -5295,14 +5239,6 @@
 		)
 		(pin "1"
 			(uuid "54f162ee-ff2f-4c1b-bdb4-90da07fa3f47")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5378,14 +5314,6 @@
 		(pin "2"
 			(uuid "57499876-42f0-498b-8034-c77f3aa14032")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -5456,14 +5384,6 @@
 		(pin "1"
 			(uuid "1fa4b6ad-7120-46a0-84ca-8a4cbf428926")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -5533,14 +5453,6 @@
 		)
 		(pin "1"
 			(uuid "0bc5df5e-0d15-480c-85ef-b8cb8b7d3b63")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5616,14 +5528,6 @@
 		(pin "1"
 			(uuid "6f1620d7-cc54-4a31-a1fd-314055c9540a")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5697,14 +5601,6 @@
 		)
 		(pin "1"
 			(uuid "378c5d30-adbe-4a41-b957-e6a7e34a4a05")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "C7")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5780,14 +5676,6 @@
 		(pin "2"
 			(uuid "95ffd135-6a16-4c1f-8ccc-867ea2b86324")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5858,14 +5746,6 @@
 		(pin "1"
 			(uuid "84f8c6ab-7be0-481e-a1f0-cd422dfa32c7")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5935,14 +5815,6 @@
 		)
 		(pin "1"
 			(uuid "d92f7101-a7ab-48d7-8b73-b28b647c5444")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6205,14 +6077,6 @@
 		(pin "64"
 			(uuid "3acce242-6de3-40f2-964e-c6488efa8758")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6282,14 +6146,6 @@
 		)
 		(pin "1"
 			(uuid "78a53d52-b0fc-42a4-a253-d889abf374d7")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6369,14 +6225,6 @@
 		(pin "1"
 			(uuid "0d874b84-a351-40df-918d-b9a2e65b5757")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
@@ -6455,14 +6303,6 @@
 		(pin "1"
 			(uuid "9414c9e6-fb9b-4810-b9d9-62c90a87a928")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -6536,14 +6376,6 @@
 		)
 		(pin "1"
 			(uuid "79564423-859a-4503-bc1c-5d7340626c9d")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "C3")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6619,14 +6451,6 @@
 		(pin "1"
 			(uuid "035006fb-2caa-4540-961e-1e24f7ae3ac8")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -6696,14 +6520,6 @@
 		)
 		(pin "1"
 			(uuid "0e854445-d094-467a-9099-534dfc068cd8")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6779,14 +6595,6 @@
 		(pin "2"
 			(uuid "63d15767-e6da-498a-baa4-dc87a5d25e11")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -6860,14 +6668,6 @@
 		)
 		(pin "1"
 			(uuid "4fb240ff-b6be-4ea7-a345-251b194616bc")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "C2")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6943,14 +6743,6 @@
 		(pin "1"
 			(uuid "66b7feb8-c75a-4e1b-8ab4-e346e76c56cb")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7020,14 +6812,6 @@
 		)
 		(pin "1"
 			(uuid "18f92e19-deac-4dfe-ba5c-2205d0168784")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7099,14 +6883,6 @@
 		(pin "1"
 			(uuid "6cc10f47-17e5-45e7-ab21-fbb198349589")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7176,14 +6952,6 @@
 		)
 		(pin "1"
 			(uuid "dee28f30-09d6-4c6f-afa7-e95643bf501c")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7263,14 +7031,6 @@
 		(pin "1"
 			(uuid "522205ef-afc0-4963-bba6-d34a4e19f409")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7345,14 +7105,6 @@
 		(pin "2"
 			(uuid "2bf14026-9af2-4087-b631-a5701eb63d2a")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7422,14 +7174,6 @@
 		)
 		(pin "1"
 			(uuid "cef2e1bb-ef23-4114-9f8c-48aa2fadcf52")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7512,14 +7256,6 @@
 		(pin "1"
 			(uuid "09ae8116-2aee-4770-acd3-de65aa9d289c")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7594,14 +7330,6 @@
 		(pin "2"
 			(uuid "1ba5e465-7435-407c-8161-40dcc3f6a794")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7671,14 +7399,6 @@
 		)
 		(pin "1"
 			(uuid "848b2d62-0cd9-45a4-b820-4ee918c12654")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7754,14 +7474,6 @@
 		(pin "2"
 			(uuid "dfe9ca3b-466f-4fec-8b8b-b90fb757f12f")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7831,14 +7543,6 @@
 		)
 		(pin "1"
 			(uuid "b106fbfa-35aa-44c6-9ec8-ee19b7becafa")
-		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7910,19 +7614,10 @@
 		(pin "1"
 			(uuid "3031482b-e19a-4d6e-9c50-a87a2dce48b0")
 		)
-		(instances
-			(project "reaction_wheel"
-				(path "/3eff537d-49a0-4056-9805-dac82285d05c"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )

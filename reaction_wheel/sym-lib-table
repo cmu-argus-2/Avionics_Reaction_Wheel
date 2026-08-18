@@ -4,4 +4,7 @@
 	(lib (name "tps62902") (type "KiCad") (uri "C:/Users/arguscubesat/sidrisha/ul_TPS62902RPJR/KiCADv6/2026-07-13_19-34-33.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS62902RPJR_boost_converter") (type "KiCad") (uri "C:/Users/arguscubesat/sidrisha/ul_TPS61379QWRTERQ1/KiCADv6/2026-07-13_19-40-14.kicad_sym") (options "") (descr ""))
 	(lib (name "molex_pico_clasp") (type "KiCad") (uri "C:/Users/arguscubesat/Downloads/5013310207/KiCADv6/2026-08-06_13-39-23.kicad_sym") (options "") (descr ""))
+	(lib (name "SM04B_GHS_TB") (type "KiCad") (uri "/Users/sidrishasarbajna/Documents/KiCADv6/2026-08-18_03-02-24.kicad_sym") (options "") (descr ""))
+	(lib (name "SM02B_GHS_TB") (type "KiCad") (uri "/Users/sidrishasarbajna/Documents/KiCADv6/2026-08-18_03-10-36.kicad_sym") (options "") (descr ""))
+	(lib (name "SM08B_GHS_TB") (type "KiCad") (uri "/Users/sidrishasarbajna/Documents/KiCADv6 2/2026-08-18_03-17-03.kicad_sym") (options "") (descr ""))
 )
