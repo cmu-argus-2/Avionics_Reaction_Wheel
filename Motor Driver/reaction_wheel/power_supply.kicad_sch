@@ -5,6 +5,143 @@
 	(uuid "6ef8d47f-0ca5-4484-b920-d30172592bf3")
 	(paper "A4")
 	(lib_symbols
+		(symbol "5001_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP7"
+				(at -2.032 -5.08 90)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "OUTA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "5001"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "5001"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey PN" "36-5001-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "5001_2_0_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Altium Vault - TI:root_0_SYM-HCM1A1104V2-1R0-R_Altium Vault - TI"
 			(pin_numbers
 				(hide yes)
@@ -1094,244 +1231,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MD070B-altium-import:VBAT_BAR"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBAT"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'VBAT'"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBAT_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MD070B-altium-import:VM_BAR"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VM"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'VM'"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VM_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "VM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TPS259531DSGR:TPS259531DSGR"
 			(pin_names
 				(offset 0.254)
@@ -1738,6 +1637,145 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDD"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
 					(length 0)
 					(name ""
 						(effects
@@ -2424,15 +2462,15 @@
 		)
 		(uuid "032bde20-bf6b-403e-98be-c14970ad30b6")
 	)
-	(text "Reverse Polarity Protection"
+	(text "Grounding"
 		(exclude_from_sim no)
-		(at 141.224 47.752 0)
+		(at 232.156 34.798 0)
 		(effects
 			(font
 				(size 2.286 2.286)
 			)
 		)
-		(uuid "0d0b9173-c0ac-4fe7-827e-4d6f09e89714")
+		(uuid "3c316e04-ab47-47a2-adc6-4f4bfb4cb5af")
 	)
 	(text "Copy and pasted original and mostly deleted test points"
 		(exclude_from_sim no)
@@ -2446,23 +2484,13 @@
 	)
 	(text "Pi Filter"
 		(exclude_from_sim no)
-		(at 196.85 77.47 0)
+		(at 196.088 81.28 0)
 		(effects
 			(font
 				(size 2.286 2.286)
 			)
 		)
 		(uuid "8c4bc0e5-63b8-43c9-9152-e763a24865f8")
-	)
-	(text "got rid of RPP "
-		(exclude_from_sim no)
-		(at 99.06 49.276 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a619b2c4-522b-462a-89d5-1a5439254481")
 	)
 	(text "4.5-V to 35-V Operation"
 		(exclude_from_sim no)
@@ -2474,32 +2502,6 @@
 		)
 		(uuid "b523cdac-a768-4cb4-81ca-eca1baf04777")
 	)
-	(text "can add a power switch to prevent in-rush current with soft start"
-		(exclude_from_sim no)
-		(at 91.948 170.942 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d6e63e36-b24e-4b8b-afe3-86724ca9211d")
-	)
-	(text "used CAP ALUM POLY 330UF 20% 25V SMD"
-		(exclude_from_sim no)
-		(at 199.39 131.064 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f1e02b0c-3c4f-499a-bb00-7adcfbb14b2e")
-	)
-	(junction
-		(at 243.84 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0041c8ee-d0e9-4c06-b15c-bf4439568ff8")
-	)
 	(junction
 		(at 204.47 102.87)
 		(diameter 0)
@@ -2507,10 +2509,28 @@
 		(uuid "01ee3065-8f56-43a5-a4fd-5764e68d9842")
 	)
 	(junction
-		(at 40.64 121.92)
+		(at 171.45 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f973a88-6eb2-4858-921e-2158050a1585")
+		(uuid "123aa33f-cf40-40ef-9774-e37b3b2ca32e")
+	)
+	(junction
+		(at 242.57 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bf15f69-38d9-4759-be54-17506f2ce370")
+	)
+	(junction
+		(at 240.03 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "210bd69c-1411-42dd-b942-437e2177381e")
+	)
+	(junction
+		(at 111.76 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "217da33b-1933-441b-88c8-a844ccab5756")
 	)
 	(junction
 		(at 208.28 95.25)
@@ -2525,40 +2545,58 @@
 		(uuid "27f55571-b9cf-4f86-b71b-e1d42cea4beb")
 	)
 	(junction
+		(at 151.13 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c6e41fe-ef76-4a9b-b00a-f2c4126f2ba9")
+	)
+	(junction
+		(at 44.45 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e7dab9e-5459-4389-b376-0345e3adee05")
+	)
+	(junction
+		(at 219.71 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30b4016b-2abc-4e65-a682-5797c9bdba36")
+	)
+	(junction
 		(at 200.66 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32cbabeb-8a93-45af-823f-09232e0f6608")
 	)
 	(junction
-		(at 234.95 118.11)
+		(at 229.87 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3eee0305-81a4-4de0-aa65-b09c88eb2e1b")
+		(uuid "4a6e5f01-c962-477b-bc3e-03d796f759de")
+	)
+	(junction
+		(at 33.02 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d2ad972-8835-49c2-9ec0-32e1ddf8993d")
+	)
+	(junction
+		(at 250.19 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fb18640-9fcf-4a4b-a5cb-791e537fedd2")
 	)
 	(junction
 		(at 181.61 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "48de0fa1-4385-406f-a8b1-36ab7f363bef")
+		(uuid "52ca573f-57e5-4833-8aa5-b197d64a49fb")
 	)
 	(junction
-		(at 229.87 90.17)
+		(at 151.13 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "49bca719-bcb7-4abc-b994-e9e6a79077a4")
-	)
-	(junction
-		(at 229.87 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e3b5a30-536b-483a-90ad-ccb1d4c51544")
-	)
-	(junction
-		(at 135.89 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f29a8f1-3430-4552-b801-5f1888e258c1")
+		(uuid "5422a607-f10f-4c70-866f-1126108d7f32")
 	)
 	(junction
 		(at 208.28 102.87)
@@ -2573,70 +2611,58 @@
 		(uuid "581b890f-e5ed-4c57-a456-8a6b05432c57")
 	)
 	(junction
+		(at 171.45 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b743528-79f7-490d-a984-e0ae6fcc99f3")
+	)
+	(junction
+		(at 219.71 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "624254e0-e17a-49d3-9746-3496372e60da")
+	)
+	(junction
 		(at 204.47 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f866653-2dfc-4226-888b-8ba244b4adf3")
 	)
 	(junction
-		(at 161.29 118.11)
+		(at 161.29 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7c8003a4-22b9-426b-ac05-53ebc33fcba4")
+		(uuid "6fc60707-d902-4510-8a84-de4879f82307")
+	)
+	(junction
+		(at 240.03 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "737adbba-844c-4339-9a06-4fc1d1e3fd9d")
+	)
+	(junction
+		(at 57.15 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77dfdb2b-bb70-42e1-b656-484a757b623b")
 	)
 	(junction
 		(at 219.71 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "846dcd28-15cc-46ec-956c-b57cb2c131d1")
+		(uuid "8ef01827-9ed0-4b00-8551-702160fe3630")
 	)
 	(junction
-		(at 35.56 121.92)
+		(at 44.45 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9614e0f4-a883-4b1b-9ff8-e860682c43c1")
+		(uuid "9d848d42-75ce-4c02-9928-bb8d11a81140")
 	)
 	(junction
-		(at 48.26 121.92)
+		(at 161.29 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9bc79e2d-7dd4-4cfa-b4db-63b3cb650eee")
-	)
-	(junction
-		(at 219.71 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a24c71c2-45a6-45c2-90e9-a00d35939834")
-	)
-	(junction
-		(at 44.45 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2cff03b-27bb-4939-b145-ac3ec61dee4f")
-	)
-	(junction
-		(at 171.45 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a477230d-edc4-434c-9af8-52b437afd89c")
-	)
-	(junction
-		(at 151.13 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4141628-51d1-462b-ba33-c63e8c8d21cb")
-	)
-	(junction
-		(at 161.29 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8331491-d7fb-49f3-b6a7-053a466d953e")
-	)
-	(junction
-		(at 151.13 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d515518d-6e1b-4617-b99a-26ef7a4d80bb")
+		(uuid "bb613cd6-610b-4012-b3c0-6fd67b05a580")
 	)
 	(junction
 		(at 196.85 95.25)
@@ -2645,22 +2671,16 @@
 		(uuid "d8062de5-aeef-46f2-a69d-c06b325043f2")
 	)
 	(junction
-		(at 171.45 90.17)
+		(at 229.87 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dcd81e9e-358a-469a-bdc1-c1b468117543")
+		(uuid "e12274d6-4879-4dce-8953-38aad58cb4a2")
 	)
 	(junction
-		(at 240.03 118.11)
+		(at 250.19 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e104b6bc-361c-4eeb-b34f-9ff4991226f0")
-	)
-	(junction
-		(at 234.95 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4a2b3ac-6056-4993-9b96-16bd2ebd1413")
+		(uuid "e3d8be9a-d4a7-4000-b43e-e02cf8c80fdc")
 	)
 	(junction
 		(at 204.47 90.17)
@@ -2669,20 +2689,10 @@
 		(uuid "f775c22b-5bad-47ce-90fb-201a714045e1")
 	)
 	(junction
-		(at 240.03 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9b84cb6-e47c-4069-ab36-a575f1ac6b0f")
-	)
-	(junction
 		(at 200.66 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcbf0959-c8fa-458d-9d29-b7591b9cc016")
-	)
-	(no_connect
-		(at 97.79 128.27)
-		(uuid "da84ed9b-46a4-4aa3-9a69-f366a202867a")
 	)
 	(wire
 		(pts
@@ -2696,7 +2706,17 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 102.87) (xy 171.45 118.11)
+			(xy 44.45 120.65) (xy 57.15 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009610a4-2c6b-4d3b-be65-dc5ec21f6e69")
+	)
+	(wire
+		(pts
+			(xy 171.45 107.95) (xy 171.45 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2706,7 +2726,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 87.63) (xy 234.95 90.17)
+			(xy 250.19 87.63) (xy 250.19 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2723,16 +2743,6 @@
 			(type default)
 		)
 		(uuid "0322e011-572b-4532-bc45-5cd49269b52b")
-	)
-	(wire
-		(pts
-			(xy 35.56 121.92) (xy 35.56 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0504256c-0873-4191-bd48-b75b3647c1e6")
 	)
 	(wire
 		(pts
@@ -2766,17 +2776,27 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 118.11) (xy 250.19 118.11)
+			(xy 219.71 48.26) (xy 219.71 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e4118cc-cda4-4125-8b9c-c3e04023e256")
+		(uuid "0aea0618-47a6-4e1a-8914-a3ee8494b161")
 	)
 	(wire
 		(pts
-			(xy 181.61 90.17) (xy 181.61 95.25)
+			(xy 242.57 45.72) (xy 242.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e3d27f6-c8f7-4d91-a2ef-42ad047c4085")
+	)
+	(wire
+		(pts
+			(xy 181.61 90.17) (xy 181.61 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2786,17 +2806,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 121.92) (xy 44.45 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "124cf1b2-018f-45a8-bf8d-6d81589ead27")
-	)
-	(wire
-		(pts
-			(xy 135.89 118.11) (xy 135.89 125.73)
+			(xy 151.13 118.11) (xy 151.13 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2806,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 90.17) (xy 229.87 95.25)
+			(xy 229.87 90.17) (xy 229.87 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2846,13 +2856,33 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 90.17) (xy 234.95 90.17)
+			(xy 229.87 90.17) (xy 250.19 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1be6a14a-41f6-4539-a583-1be4b7bbf028")
+	)
+	(wire
+		(pts
+			(xy 111.76 140.97) (xy 111.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf985ea-bbd3-4b95-b522-851712041665")
+	)
+	(wire
+		(pts
+			(xy 44.45 139.7) (xy 44.45 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d717d64-4381-42f0-8141-98b8c213bf30")
 	)
 	(wire
 		(pts
@@ -2866,7 +2896,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 90.17) (xy 161.29 95.25)
+			(xy 161.29 90.17) (xy 161.29 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2896,7 +2926,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 102.87) (xy 161.29 118.11)
+			(xy 97.79 128.27) (xy 111.76 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25876d68-eb5b-415a-8dda-83c84b41c064")
+	)
+	(wire
+		(pts
+			(xy 161.29 107.95) (xy 161.29 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2913,16 +2953,6 @@
 			(type default)
 		)
 		(uuid "28c8d217-a9e7-48a3-bb4c-749b6a8a4486")
-	)
-	(wire
-		(pts
-			(xy 240.03 90.17) (xy 243.84 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2977bce7-2aad-415d-9d1f-33ca58d277af")
 	)
 	(wire
 		(pts
@@ -2946,33 +2976,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 118.11) (xy 240.03 118.11)
+			(xy 219.71 45.72) (xy 227.33 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e472673-56a9-471b-801e-27ba7f57b006")
+		(uuid "2edcb9da-5bdd-4776-8eac-79612e5b66b9")
 	)
 	(wire
 		(pts
-			(xy 250.19 118.11) (xy 250.19 102.87)
+			(xy 250.19 118.11) (xy 250.19 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "369a1545-a721-4b5f-8dac-f3b1c05dacb7")
-	)
-	(wire
-		(pts
-			(xy 29.21 121.92) (xy 35.56 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3afbccd0-389d-4f89-a442-85fe5643ac3f")
 	)
 	(wire
 		(pts
@@ -2986,16 +3006,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 121.92) (xy 48.26 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ee3351c-097f-4b31-8447-23018b75ba93")
-	)
-	(wire
-		(pts
 			(xy 212.09 102.87) (xy 212.09 101.6)
 		)
 		(stroke
@@ -3006,7 +3016,17 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 90.17) (xy 250.19 95.25)
+			(xy 57.15 120.65) (xy 62.23 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49bbd401-3a4e-4e2e-9c99-ca5fe605ff02")
+	)
+	(wire
+		(pts
+			(xy 250.19 90.17) (xy 250.19 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3016,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 90.17) (xy 219.71 95.25)
+			(xy 219.71 90.17) (xy 219.71 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3046,16 +3066,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 121.92) (xy 48.26 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62aac7b2-1976-42ed-b824-48967dbc531f")
-	)
-	(wire
-		(pts
 			(xy 196.85 102.87) (xy 193.04 102.87)
 		)
 		(stroke
@@ -3066,7 +3076,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 102.87) (xy 151.13 118.11)
+			(xy 151.13 107.95) (xy 151.13 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3076,7 +3086,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 102.87) (xy 240.03 118.11)
+			(xy 240.03 107.95) (xy 240.03 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3096,17 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 121.92) (xy 48.26 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b3a5b6-25e9-4354-8341-2e0c442481f4")
-	)
-	(wire
-		(pts
-			(xy 97.79 133.35) (xy 102.87 133.35)
+			(xy 97.79 133.35) (xy 100.33 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3136,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 90.17) (xy 151.13 90.17)
+			(xy 111.76 90.17) (xy 151.13 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3166,13 +3166,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 138.43) (xy 127 118.11)
+			(xy 57.15 151.13) (xy 57.15 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c868926-4aec-4ff0-944d-5e7611f6a91d")
+		(uuid "8ee63f76-d88a-444a-85f0-8dbb5c2cba34")
+	)
+	(wire
+		(pts
+			(xy 62.23 123.19) (xy 57.15 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1e804b-ea67-461a-9a70-d9ac60196373")
 	)
 	(wire
 		(pts
@@ -3206,13 +3216,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 134.62) (xy 62.23 130.81)
+			(xy 57.15 123.19) (xy 57.15 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a52757d-6b5c-4c89-88b9-82cb8e17bf05")
+		(uuid "99e7cb6e-def8-4a5a-a105-788652c96759")
 	)
 	(wire
 		(pts
@@ -3226,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 118.11) (xy 234.95 118.11)
+			(xy 229.87 118.11) (xy 240.03 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3246,7 +3256,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 90.17) (xy 151.13 95.25)
+			(xy 151.13 90.17) (xy 151.13 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3256,53 +3266,23 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 90.17) (xy 250.19 90.17)
+			(xy 33.02 120.65) (xy 33.02 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a21fff83-3d5c-440f-b9f2-67d6f010a2ed")
+		(uuid "a34c6f67-42d0-4303-9ac8-268a565f7c3a")
 	)
 	(wire
 		(pts
-			(xy 234.95 90.17) (xy 240.03 90.17)
+			(xy 33.02 120.65) (xy 44.45 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9cee86a-cd94-4c5b-9a57-4bd4bad14aa8")
-	)
-	(wire
-		(pts
-			(xy 48.26 120.65) (xy 62.23 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa313494-7dc4-43d4-b0b5-0a9ffdf0afe1")
-	)
-	(wire
-		(pts
-			(xy 35.56 121.92) (xy 40.64 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abe25c08-ee38-49de-8268-7b3d8cff2aeb")
-	)
-	(wire
-		(pts
-			(xy 127 118.11) (xy 135.89 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac474a03-24ae-4946-8d73-9a7ba70460a1")
+		(uuid "a635281d-38ed-4dbf-80fd-ee495c40753f")
 	)
 	(wire
 		(pts
@@ -3336,26 +3316,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 123.19) (xy 62.23 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1c9b2d2-7e9a-4253-af74-efb5c462bac7")
-	)
-	(wire
-		(pts
-			(xy 57.15 140.97) (xy 62.23 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b62c9ebd-4446-486f-b2d3-ae6b5190c67e")
-	)
-	(wire
-		(pts
 			(xy 208.28 102.87) (xy 208.28 118.11)
 		)
 		(stroke
@@ -3363,6 +3323,16 @@
 			(type default)
 		)
 		(uuid "b9181a29-7515-4093-b1fe-08687f8b549e")
+	)
+	(wire
+		(pts
+			(xy 44.45 129.54) (xy 44.45 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9e18c5-12c3-48b5-bbfd-2ec924909dd1")
 	)
 	(wire
 		(pts
@@ -3386,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 120.65) (xy 109.22 90.17)
+			(xy 111.76 120.65) (xy 111.76 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3406,6 +3376,26 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 45.72) (xy 242.57 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6abda5b-8e1d-4692-a188-b018d4efe4dc")
+	)
+	(wire
+		(pts
+			(xy 44.45 120.65) (xy 44.45 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c936b208-b4da-48f9-a06f-7ff4f22a41e5")
+	)
+	(wire
+		(pts
 			(xy 200.66 95.25) (xy 200.66 96.52)
 		)
 		(stroke
@@ -3416,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 133.35) (xy 110.49 133.35)
+			(xy 111.76 133.35) (xy 107.95 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3426,17 +3416,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 118.11) (xy 151.13 118.11)
+			(xy 33.02 118.11) (xy 33.02 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d18d3bc1-c2f9-433b-aec6-1d3644f089f4")
+		(uuid "cefade7f-c9e0-4a95-a3de-b7bf93074431")
 	)
 	(wire
 		(pts
-			(xy 35.56 134.62) (xy 62.23 134.62)
+			(xy 44.45 130.81) (xy 62.23 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3446,7 +3436,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 118.11) (xy 234.95 125.73)
+			(xy 250.19 118.11) (xy 250.19 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3456,7 +3446,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 118.11) (xy 181.61 102.87)
+			(xy 181.61 118.11) (xy 181.61 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3466,7 +3456,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 90.17) (xy 171.45 95.25)
+			(xy 171.45 90.17) (xy 171.45 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3476,13 +3466,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 138.43) (xy 127 138.43)
+			(xy 57.15 143.51) (xy 57.15 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e77cdc46-0425-4355-8682-3d3316b3d3c2")
+		(uuid "e50c22c3-8f01-4fa4-ba7a-84f44e132fe4")
 	)
 	(wire
 		(pts
@@ -3496,7 +3486,17 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 95.25) (xy 240.03 90.17)
+			(xy 33.02 132.08) (xy 33.02 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaadb1f7-b094-4765-8f80-239ea43d7115")
+	)
+	(wire
+		(pts
+			(xy 240.03 100.33) (xy 240.03 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3506,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 120.65) (xy 109.22 120.65)
+			(xy 97.79 120.65) (xy 111.76 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3526,7 +3526,17 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 102.87) (xy 219.71 118.11)
+			(xy 57.15 140.97) (xy 62.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd13ea2-0d35-420a-9c42-999f3f91068d")
+	)
+	(wire
+		(pts
+			(xy 219.71 107.95) (xy 219.71 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3546,7 +3556,17 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 102.87) (xy 229.87 118.11)
+			(xy 44.45 130.81) (xy 44.45 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2cac9a3-4a06-4907-b915-706d4986309a")
+	)
+	(wire
+		(pts
+			(xy 229.87 107.95) (xy 229.87 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3554,9 +3574,19 @@
 		)
 		(uuid "f435f211-0fbb-4699-85a0-ba6f75cba664")
 	)
+	(wire
+		(pts
+			(xy 240.03 118.11) (xy 250.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda1ade5-322c-4d3e-95d5-4fe113cf16ba")
+	)
 	(symbol
 		(lib_id "Altium Vault - TI:root_1_Capacitor_Altium Vault - TI")
-		(at 250.19 100.33 180)
+		(at 250.19 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3566,7 +3596,7 @@
 		(dnp no)
 		(uuid "06dead68-adbf-4b36-9fc6-4d997bf66a71")
 		(property "Reference" "C22"
-			(at 252.476 100.076 0)
+			(at 252.73 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3577,7 +3607,7 @@
 			)
 		)
 		(property "Value" "CGA3E3X7S2A104K080AB"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3589,7 +3619,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 250.19 100.33 0)
+			(at 250.19 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3600,7 +3630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 100.33 0)
+			(at 250.19 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3611,7 +3641,7 @@
 			)
 		)
 		(property "Description" "CAP, CERM, 1 uF, 100 V, +/- 10%, X7R, 1206"
-			(at 250.19 100.33 0)
+			(at 250.19 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3622,7 +3652,7 @@
 			)
 		)
 		(property "TAMIN_C" "-55°C"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3634,7 +3664,7 @@
 			)
 		)
 		(property "PUBLISHER" "Texas Instruments"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3676,7 @@
 			)
 		)
 		(property "POLARIZED" "N"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3658,7 +3688,7 @@
 			)
 		)
 		(property "TEMPCO" "X7R"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +3700,7 @@
 			)
 		)
 		(property "SIZEAREAWB_MM2" "10.92"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3682,7 +3712,7 @@
 			)
 		)
 		(property "PUBLISHED" "2008-06-19"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3694,7 +3724,7 @@
 			)
 		)
 		(property "ROHS" "Y"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3706,7 +3736,7 @@
 			)
 		)
 		(property "VALUE1" "Unknown"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3718,7 +3748,7 @@
 			)
 		)
 		(property "MOUNTTYPE" "SMT"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3730,7 +3760,7 @@
 			)
 		)
 		(property "U/M" "EA"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3742,7 +3772,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1uF"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3754,7 +3784,7 @@
 			)
 		)
 		(property "TAMAX_C" "125°C"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3766,7 +3796,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3778,7 +3808,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samsung"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,7 +3820,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "1206"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3802,7 +3832,7 @@
 			)
 		)
 		(property "TOLERANCE_%" "10%"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,7 +3844,7 @@
 			)
 		)
 		(property "SIZEZ_MM" "1.8"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3826,7 +3856,7 @@
 			)
 		)
 		(property "SIZEX_MM" "3.2"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3838,7 +3868,7 @@
 			)
 		)
 		(property "SIZEY_MM" "1.6"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3850,7 +3880,7 @@
 			)
 		)
 		(property "CAP_CASE" "1206"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3862,7 +3892,7 @@
 			)
 		)
 		(property "VALUE2" "100V"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3874,7 +3904,7 @@
 			)
 		)
 		(property "SIZEAREA_MM2" "5.12"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3886,7 +3916,7 @@
 			)
 		)
 		(property "COMPTYPE" "Capacitor"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3898,7 +3928,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2017-03-09"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3910,7 +3940,7 @@
 			)
 		)
 		(property "PARTNUMBER" "CL31B105KCHNNNE"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3922,7 +3952,7 @@
 			)
 		)
 		(property "AEC QUALIFIED" "N"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3934,7 +3964,7 @@
 			)
 		)
 		(property "CAP_F" "1µF"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3946,7 +3976,7 @@
 			)
 		)
 		(property "VDC_V" "100V"
-			(at 252.476 102.616 0)
+			(at 252.73 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3957,7 +3987,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet link"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3969,7 +3999,7 @@
 			)
 		)
 		(property "AEC GRADE" "N/A"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3981,7 +4011,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "1276-1838-1-ND"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3993,7 +4023,7 @@
 			)
 		)
 		(property "AEC CATEGORY" "Q200"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4005,7 +4035,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "Ceramic"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4017,7 +4047,7 @@
 			)
 		)
 		(property "VALUEDISPLAYED" "1uF"
-			(at 252.476 105.156 0)
+			(at 252.73 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4028,7 +4058,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&fileName=C_CL31B105KCHNNNE.pdf"
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4040,7 +4070,7 @@
 			)
 		)
 		(property "ALTERNATE MANUFACTURER" ""
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4052,7 +4082,7 @@
 			)
 		)
 		(property "ALTERNATE PARTNUMBER" ""
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4064,7 +4094,7 @@
 			)
 		)
 		(property "ESR_OHM" ""
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4076,7 +4106,7 @@
 			)
 		)
 		(property "IRMS_A" ""
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4088,7 +4118,7 @@
 			)
 		)
 		(property "SUPPLIER 2" ""
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4100,7 +4130,7 @@
 			)
 		)
 		(property "SUPPLIER 3" ""
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4112,7 +4142,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" ""
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,7 +4154,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 3" ""
-			(at 247.904 94.742 0)
+			(at 247.904 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4152,7 +4182,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 129.54 0)
+		(at 33.02 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4162,7 +4192,7 @@
 		(dnp no)
 		(uuid "1272e5f3-d41c-4e44-8dbd-b28b0ff574af")
 		(property "Reference" "#PWR023"
-			(at 44.45 135.89 0)
+			(at 33.02 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4173,7 +4203,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 44.704 132.842 0)
+			(at 33.02 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4183,7 +4213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 129.54 0)
+			(at 33.02 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4194,7 +4224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 129.54 0)
+			(at 33.02 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4205,7 +4235,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 129.54 0)
+			(at 33.02 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4229,7 +4259,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 243.84 90.17 0)
+		(at 240.03 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4237,32 +4267,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ce2290e-61a2-4f6e-8f0c-eca8cc423edd")
 		(property "Reference" "TP4"
-			(at 246.38 85.5979 0)
+			(at 240.03 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "VM"
-			(at 246.38 88.1379 0)
+			(at 240.03 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 248.92 90.17 0)
+			(at 245.11 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4273,7 +4300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 90.17 0)
+			(at 245.11 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4284,7 +4311,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 243.84 90.17 0)
+			(at 240.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4308,7 +4335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 125.73 0)
+		(at 250.19 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4318,7 +4345,7 @@
 		(dnp no)
 		(uuid "26674b5f-bdc8-4bcb-ab39-c110fa1f4786")
 		(property "Reference" "#PWR026"
-			(at 234.95 132.08 0)
+			(at 250.19 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4329,7 +4356,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 235.204 129.032 0)
+			(at 250.19 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4339,7 +4366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 125.73 0)
+			(at 250.19 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,7 +4377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 125.73 0)
+			(at 250.19 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4361,7 +4388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 125.73 0)
+			(at 250.19 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4412,7 @@
 	)
 	(symbol
 		(lib_id "Altium Vault - TI:root_1_mirrored_Capacitor_Altium Vault - TI")
-		(at 161.29 100.33 0)
+		(at 161.29 105.41 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4396,7 +4423,7 @@
 		(dnp no)
 		(uuid "33f9599d-1ffc-4030-bbe4-18880703a9e8")
 		(property "Reference" "C16"
-			(at 163.576 100.076 0)
+			(at 164.084 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4407,7 +4434,7 @@
 			)
 		)
 		(property "Value" "CGA3E3X7S2A104K080AB"
-			(at 154.94 107.95 0)
+			(at 154.94 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4419,7 +4446,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 161.29 100.33 0)
+			(at 161.29 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4430,7 +4457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 100.33 0)
+			(at 161.29 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4441,7 +4468,7 @@
 			)
 		)
 		(property "Description" "CAP, CERM, 0.1 uF, 100 V, +/- 10%, X7S, AEC-Q200 Grade 1, 0603"
-			(at 161.29 100.33 0)
+			(at 161.29 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4452,7 +4479,7 @@
 			)
 		)
 		(property "POLARIZED" "N"
-			(at 153.162 110.49 0)
+			(at 153.162 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4464,7 +4491,7 @@
 			)
 		)
 		(property "COMPTYPE" "Capacitor"
-			(at 155.956 105.156 0)
+			(at 155.956 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,7 +4503,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0.1uF"
-			(at 155.956 105.156 0)
+			(at 155.956 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,7 +4515,7 @@
 			)
 		)
 		(property "PARTNUMBER" "CGA3E3X7S2A104K080AB"
-			(at 155.956 94.488 0)
+			(at 155.956 99.568 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4500,7 +4527,7 @@
 			)
 		)
 		(property "VALUEDISPLAYED" "0.1uF"
-			(at 163.576 102.616 0)
+			(at 164.084 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4511,7 +4538,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4523,7 +4550,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "0603"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4535,7 +4562,7 @@
 			)
 		)
 		(property "ROHS" "Y"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4547,7 +4574,7 @@
 			)
 		)
 		(property "U/M" "EA"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4559,7 +4586,7 @@
 			)
 		)
 		(property "CAP_F" "100nF"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4571,7 +4598,7 @@
 			)
 		)
 		(property "TOLERANCE_%" "10%"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4583,7 +4610,7 @@
 			)
 		)
 		(property "ESR_OHM" "0.04959"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4595,7 +4622,7 @@
 			)
 		)
 		(property "VALUE1" "0.04959 ohm"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4607,7 +4634,7 @@
 			)
 		)
 		(property "VDC_V" "100V"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4619,7 +4646,7 @@
 			)
 		)
 		(property "VALUE2" "100V"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4631,7 +4658,7 @@
 			)
 		)
 		(property "MOUNTTYPE" "SMT"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4643,7 +4670,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "Ceramic"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4655,7 +4682,7 @@
 			)
 		)
 		(property "TEMPCO" "X7S"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4667,7 +4694,7 @@
 			)
 		)
 		(property "IRMS_A" "751.618mA"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4679,7 +4706,7 @@
 			)
 		)
 		(property "TAMIN_C" "-55°C"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4691,7 +4718,7 @@
 			)
 		)
 		(property "TAMAX_C" "125°C"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4703,7 +4730,7 @@
 			)
 		)
 		(property "CAP_CASE" "0603"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,7 +4742,7 @@
 			)
 		)
 		(property "PUBLISHED" "2008-06-19"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,7 +4754,7 @@
 			)
 		)
 		(property "PUBLISHER" "Texas Instruments"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4739,7 +4766,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2017-03-09"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4751,7 +4778,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet link"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4763,7 +4790,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E3X7S2A104K080AB"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,7 +4802,7 @@
 			)
 		)
 		(property "ALTERNATE PARTNUMBER" ""
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,7 +4814,7 @@
 			)
 		)
 		(property "ALTERNATE MANUFACTURER" ""
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4799,7 +4826,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4811,7 +4838,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "445-6938-1-ND"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4823,7 +4850,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Newark"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4835,7 +4862,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "04X3163"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4847,7 +4874,7 @@
 			)
 		)
 		(property "SUPPLIER 3" "Mouser"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4859,7 +4886,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 3" "810-CGA3E3X7S2A104K"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4871,7 +4898,7 @@
 			)
 		)
 		(property "AEC CATEGORY" "Q200"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4883,7 +4910,7 @@
 			)
 		)
 		(property "AEC QUALIFIED" "Y"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4895,7 +4922,7 @@
 			)
 		)
 		(property "AEC GRADE" "1"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4907,7 +4934,7 @@
 			)
 		)
 		(property "SIZEAREAWB_MM2" "4.68"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4919,7 +4946,7 @@
 			)
 		)
 		(property "SIZEZ_MM" "1"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4931,7 +4958,7 @@
 			)
 		)
 		(property "SIZEX_MM" "1.6"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4943,7 +4970,7 @@
 			)
 		)
 		(property "SIZEY_MM" "0.8"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4955,7 +4982,7 @@
 			)
 		)
 		(property "SIZEAREA_MM2" "1.28"
-			(at 155.956 91.948 0)
+			(at 155.956 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4983,7 +5010,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 133.35 270)
+		(at 104.14 133.35 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4991,10 +5018,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3829eed5-0e97-48a0-8efa-23f5e9200c16")
 		(property "Reference" "R8"
-			(at 106.68 127 90)
+			(at 104.14 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5003,8 +5029,8 @@
 				)
 			)
 		)
-		(property "Value" "1500"
-			(at 106.68 129.54 90)
+		(property "Value" "1.5k"
+			(at 104.14 131.318 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5014,7 +5040,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 106.68 131.572 90)
+			(at 104.14 131.572 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5025,7 +5051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 133.35 0)
+			(at 104.14 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5036,7 +5062,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 133.35 0)
+			(at 104.14 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5073,14 +5099,13 @@
 		(dnp no)
 		(uuid "3c2115b6-f280-4a5b-afee-7d7b5bbb7e08")
 		(property "Reference" "L4"
-			(at 194.31 86.36 90)
+			(at 195.58 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "XAL5030-102MEC"
@@ -5150,6 +5175,85 @@
 			(project "reaction_wheel"
 				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45b0128c-ab35-4343-bf17-55b8f4dc9c4d")
+		(property "Reference" "R5"
+			(at 231.14 40.894 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 231.14 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.14 47.498 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c485875e-e9c0-4447-9541-2862970dc5a5")
+		)
+		(pin "2"
+			(uuid "6db60c5c-a88e-4e8d-a068-f5f1e82937f3")
+		)
+		(instances
+			(project "reaction_wheel"
+				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5386,7 +5490,7 @@
 	(symbol
 		(lib_name "root_1_Capacitor_Altium Vault - TI_3")
 		(lib_id "Altium Vault - TI:root_1_Capacitor_Altium Vault - TI")
-		(at 219.71 100.33 180)
+		(at 219.71 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5396,7 +5500,7 @@
 		(dnp no)
 		(uuid "51104c70-d134-402b-b6f1-b6b5c2962b61")
 		(property "Reference" "C19"
-			(at 221.996 100.076 0)
+			(at 222.25 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5407,7 +5511,7 @@
 			)
 		)
 		(property "Value" "CGA3E2X7R2A102K080AA"
-			(at 213.36 107.95 0)
+			(at 213.36 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +5523,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 219.71 100.33 0)
+			(at 219.71 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,7 +5534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 100.33 0)
+			(at 219.71 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,7 +5545,7 @@
 			)
 		)
 		(property "Description" "CAP, CERM, 1000 pF, 100 V, +/- 10%, X7R, AEC-Q200 Grade 1, 0603"
-			(at 219.71 100.33 0)
+			(at 219.71 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5452,7 +5556,7 @@
 			)
 		)
 		(property "POLARIZED" "N"
-			(at 211.582 110.49 0)
+			(at 211.582 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5464,7 +5568,7 @@
 			)
 		)
 		(property "COMPTYPE" "Capacitor"
-			(at 214.376 105.156 0)
+			(at 214.376 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5476,7 +5580,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1000pF"
-			(at 214.376 105.156 0)
+			(at 214.376 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5488,7 +5592,7 @@
 			)
 		)
 		(property "PARTNUMBER" "CGA3E2X7R2A102K080AA"
-			(at 214.376 94.488 0)
+			(at 214.376 99.568 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5500,7 +5604,7 @@
 			)
 		)
 		(property "VALUEDISPLAYED" "1000pF"
-			(at 221.996 102.616 0)
+			(at 222.25 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5511,7 +5615,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5523,7 +5627,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "0603"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5535,7 +5639,7 @@
 			)
 		)
 		(property "ROHS" "Y"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5547,7 +5651,7 @@
 			)
 		)
 		(property "U/M" "EA"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5559,7 +5663,7 @@
 			)
 		)
 		(property "CAP_F" "1nF"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5571,7 +5675,7 @@
 			)
 		)
 		(property "TOLERANCE_%" "10%"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5583,7 +5687,7 @@
 			)
 		)
 		(property "ESR_OHM" "1.97137"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5595,7 +5699,7 @@
 			)
 		)
 		(property "VALUE1" "1.97137 ohm"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5607,7 +5711,7 @@
 			)
 		)
 		(property "VDC_V" "100V"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5619,7 +5723,7 @@
 			)
 		)
 		(property "VALUE2" "100V"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5631,7 +5735,7 @@
 			)
 		)
 		(property "MOUNTTYPE" "SMT"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5643,7 +5747,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "Ceramic"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5655,7 +5759,7 @@
 			)
 		)
 		(property "TEMPCO" "X7R"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5667,7 +5771,7 @@
 			)
 		)
 		(property "IRMS_A" "305.705mA"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5679,7 +5783,7 @@
 			)
 		)
 		(property "TAMIN_C" "-55°C"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5691,7 +5795,7 @@
 			)
 		)
 		(property "TAMAX_C" "125°C"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5703,7 +5807,7 @@
 			)
 		)
 		(property "CAP_CASE" "0603"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5715,7 +5819,7 @@
 			)
 		)
 		(property "PUBLISHED" "2008-06-19"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5727,7 +5831,7 @@
 			)
 		)
 		(property "PUBLISHER" "Texas Instruments"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5739,7 +5843,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2017-03-09"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5751,7 +5855,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet link"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5763,7 +5867,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E2X7R2A102K080AA"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5775,7 +5879,7 @@
 			)
 		)
 		(property "ALTERNATE PARTNUMBER" ""
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5787,7 +5891,7 @@
 			)
 		)
 		(property "ALTERNATE MANUFACTURER" ""
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5799,7 +5903,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5811,7 +5915,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "445-5806-1-ND"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5823,7 +5927,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5835,7 +5939,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "810-CGA3E2X7R2A102K080AA"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5847,7 +5951,7 @@
 			)
 		)
 		(property "SUPPLIER 3" ""
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5859,7 +5963,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 3" ""
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5871,7 +5975,7 @@
 			)
 		)
 		(property "AEC CATEGORY" "Q200"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5883,7 +5987,7 @@
 			)
 		)
 		(property "AEC QUALIFIED" "Y"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5895,7 +5999,7 @@
 			)
 		)
 		(property "AEC GRADE" "1"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5907,7 +6011,7 @@
 			)
 		)
 		(property "SIZEAREA_MM2" "1.28"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5919,7 +6023,7 @@
 			)
 		)
 		(property "SIZEAREAWB_MM2" "4.68"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5931,7 +6035,7 @@
 			)
 		)
 		(property "SIZEX_MM" "1.6"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5943,7 +6047,7 @@
 			)
 		)
 		(property "SIZEY_MM" "0.8"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5955,7 +6059,7 @@
 			)
 		)
 		(property "SIZEZ_MM" "1"
-			(at 214.376 91.948 0)
+			(at 214.376 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5983,7 +6087,7 @@
 	)
 	(symbol
 		(lib_id "Altium Vault - TI:root_1_mirrored_Capacitor_Altium Vault - TI")
-		(at 240.03 100.33 0)
+		(at 240.03 105.41 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5994,7 +6098,7 @@
 		(dnp no)
 		(uuid "54765208-56fe-4672-b6d1-fb4023094b5d")
 		(property "Reference" "C21"
-			(at 242.316 100.076 0)
+			(at 242.57 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6005,7 +6109,7 @@
 			)
 		)
 		(property "Value" "CGA3E3X7S2A104K080AB"
-			(at 233.68 107.95 0)
+			(at 233.68 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6017,7 +6121,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 240.03 100.33 0)
+			(at 240.03 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6028,7 +6132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 100.33 0)
+			(at 240.03 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6039,7 +6143,7 @@
 			)
 		)
 		(property "Description" "CAP, CERM, 0.1 uF, 100 V, +/- 10%, X7S, AEC-Q200 Grade 1, 0603"
-			(at 240.03 100.33 0)
+			(at 240.03 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +6154,7 @@
 			)
 		)
 		(property "POLARIZED" "N"
-			(at 231.902 110.49 0)
+			(at 231.902 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6062,7 +6166,7 @@
 			)
 		)
 		(property "COMPTYPE" "Capacitor"
-			(at 234.696 105.156 0)
+			(at 234.696 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6074,7 +6178,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0.1uF"
-			(at 234.696 105.156 0)
+			(at 234.696 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6086,7 +6190,7 @@
 			)
 		)
 		(property "PARTNUMBER" "CGA3E3X7S2A104K080AB"
-			(at 234.696 94.488 0)
+			(at 234.696 99.568 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6098,7 +6202,7 @@
 			)
 		)
 		(property "VALUEDISPLAYED" "0.1uF"
-			(at 242.316 102.616 0)
+			(at 242.57 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6109,7 +6213,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6121,7 +6225,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "0603"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6133,7 +6237,7 @@
 			)
 		)
 		(property "ROHS" "Y"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6145,7 +6249,7 @@
 			)
 		)
 		(property "U/M" "EA"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,7 +6261,7 @@
 			)
 		)
 		(property "CAP_F" "100nF"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6169,7 +6273,7 @@
 			)
 		)
 		(property "TOLERANCE_%" "10%"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6181,7 +6285,7 @@
 			)
 		)
 		(property "ESR_OHM" "0.04959"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6193,7 +6297,7 @@
 			)
 		)
 		(property "VALUE1" "0.04959 ohm"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6205,7 +6309,7 @@
 			)
 		)
 		(property "VDC_V" "100V"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6217,7 +6321,7 @@
 			)
 		)
 		(property "VALUE2" "100V"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6229,7 +6333,7 @@
 			)
 		)
 		(property "MOUNTTYPE" "SMT"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6241,7 +6345,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "Ceramic"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6253,7 +6357,7 @@
 			)
 		)
 		(property "TEMPCO" "X7S"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6265,7 +6369,7 @@
 			)
 		)
 		(property "IRMS_A" "751.618mA"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6277,7 +6381,7 @@
 			)
 		)
 		(property "TAMIN_C" "-55°C"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6289,7 +6393,7 @@
 			)
 		)
 		(property "TAMAX_C" "125°C"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6301,7 +6405,7 @@
 			)
 		)
 		(property "CAP_CASE" "0603"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6313,7 +6417,7 @@
 			)
 		)
 		(property "PUBLISHED" "2008-06-19"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6325,7 +6429,7 @@
 			)
 		)
 		(property "PUBLISHER" "Texas Instruments"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6337,7 +6441,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2017-03-09"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6349,7 +6453,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet link"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6361,7 +6465,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E3X7S2A104K080AB"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6373,7 +6477,7 @@
 			)
 		)
 		(property "ALTERNATE PARTNUMBER" ""
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6385,7 +6489,7 @@
 			)
 		)
 		(property "ALTERNATE MANUFACTURER" ""
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6397,7 +6501,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6409,7 +6513,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "445-6938-1-ND"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6421,7 +6525,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Newark"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6433,7 +6537,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "04X3163"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6445,7 +6549,7 @@
 			)
 		)
 		(property "SUPPLIER 3" "Mouser"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6457,7 +6561,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 3" "810-CGA3E3X7S2A104K"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,7 +6573,7 @@
 			)
 		)
 		(property "AEC CATEGORY" "Q200"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6481,7 +6585,7 @@
 			)
 		)
 		(property "AEC QUALIFIED" "Y"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6493,7 +6597,7 @@
 			)
 		)
 		(property "AEC GRADE" "1"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6505,7 +6609,7 @@
 			)
 		)
 		(property "SIZEAREAWB_MM2" "4.68"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6517,7 +6621,7 @@
 			)
 		)
 		(property "SIZEZ_MM" "1"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6529,7 +6633,7 @@
 			)
 		)
 		(property "SIZEX_MM" "1.6"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6541,7 +6645,7 @@
 			)
 		)
 		(property "SIZEY_MM" "0.8"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6553,7 +6657,7 @@
 			)
 		)
 		(property "SIZEAREA_MM2" "1.28"
-			(at 234.696 91.948 0)
+			(at 234.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6580,8 +6684,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 44.45 125.73 0)
+		(lib_id "power:GND")
+		(at 219.71 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6589,31 +6693,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "60cc2734-530c-4bf9-9a1a-ee3bc3d77c79")
-		(property "Reference" "C7"
-			(at 48.26 125.476 0)
+		(uuid "57093474-3de3-4118-b081-d6705d2c2044")
+		(property "Reference" "#PWR028"
+			(at 219.71 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 47.752 127.508 0)
+		(property "Value" "AGND"
+			(at 219.71 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.4152 129.54 0)
+		(property "Footprint" ""
+			(at 219.71 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6624,7 +6727,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 125.73 0)
+			(at 219.71 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa19a92b-d7ce-4960-a22d-e96f80a91e6f")
+		)
+		(instances
+			(project "reaction_wheel"
+				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60cc2734-530c-4bf9-9a1a-ee3bc3d77c79")
+		(property "Reference" "C7"
+			(at 36.322 125.984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 36.322 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 33.9852 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6635,7 +6816,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 44.45 125.73 0)
+			(at 33.02 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6662,7 +6843,7 @@
 	)
 	(symbol
 		(lib_id "Altium Vault - TI:root_1_Capacitor_Altium Vault - TI")
-		(at 151.13 100.33 180)
+		(at 151.13 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6672,7 +6853,7 @@
 		(dnp no)
 		(uuid "619ffeb9-49f2-4493-8e99-5184281c0942")
 		(property "Reference" "C15"
-			(at 153.416 100.076 0)
+			(at 153.924 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6683,7 +6864,7 @@
 			)
 		)
 		(property "Value" "CGA3E3X7S2A104K080AB"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6695,7 +6876,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 151.13 100.33 0)
+			(at 151.13 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6706,7 +6887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 100.33 0)
+			(at 151.13 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6717,7 +6898,7 @@
 			)
 		)
 		(property "Description" "CAP, CERM, 1 uF, 100 V, +/- 10%, X7R, 1206"
-			(at 151.13 100.33 0)
+			(at 151.13 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6728,7 +6909,7 @@
 			)
 		)
 		(property "TAMIN_C" "-55°C"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6740,7 +6921,7 @@
 			)
 		)
 		(property "PUBLISHER" "Texas Instruments"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6752,7 +6933,7 @@
 			)
 		)
 		(property "POLARIZED" "N"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6764,7 +6945,7 @@
 			)
 		)
 		(property "TEMPCO" "X7R"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6776,7 +6957,7 @@
 			)
 		)
 		(property "SIZEAREAWB_MM2" "10.92"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6788,7 +6969,7 @@
 			)
 		)
 		(property "PUBLISHED" "2008-06-19"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6800,7 +6981,7 @@
 			)
 		)
 		(property "ROHS" "Y"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6812,7 +6993,7 @@
 			)
 		)
 		(property "VALUE1" "Unknown"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6824,7 +7005,7 @@
 			)
 		)
 		(property "MOUNTTYPE" "SMT"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6836,7 +7017,7 @@
 			)
 		)
 		(property "U/M" "EA"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6848,7 +7029,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1uF"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6860,7 +7041,7 @@
 			)
 		)
 		(property "TAMAX_C" "125°C"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6872,7 +7053,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6884,7 +7065,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samsung"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6896,7 +7077,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "1206"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6908,7 +7089,7 @@
 			)
 		)
 		(property "TOLERANCE_%" "10%"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6920,7 +7101,7 @@
 			)
 		)
 		(property "SIZEZ_MM" "1.8"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6932,7 +7113,7 @@
 			)
 		)
 		(property "SIZEX_MM" "3.2"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6944,7 +7125,7 @@
 			)
 		)
 		(property "SIZEY_MM" "1.6"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6956,7 +7137,7 @@
 			)
 		)
 		(property "CAP_CASE" "1206"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6968,7 +7149,7 @@
 			)
 		)
 		(property "VALUE2" "100V"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6980,7 +7161,7 @@
 			)
 		)
 		(property "SIZEAREA_MM2" "5.12"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6992,7 +7173,7 @@
 			)
 		)
 		(property "COMPTYPE" "Capacitor"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,7 +7185,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2017-03-09"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7016,7 +7197,7 @@
 			)
 		)
 		(property "PARTNUMBER" "CL31B105KCHNNNE"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7028,7 +7209,7 @@
 			)
 		)
 		(property "AEC QUALIFIED" "N"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7040,7 +7221,7 @@
 			)
 		)
 		(property "CAP_F" "1µF"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7052,7 +7233,7 @@
 			)
 		)
 		(property "VDC_V" "100V"
-			(at 153.416 102.616 0)
+			(at 153.924 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7063,7 +7244,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet link"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7075,7 +7256,7 @@
 			)
 		)
 		(property "AEC GRADE" "N/A"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7087,7 +7268,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "1276-1838-1-ND"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7099,7 +7280,7 @@
 			)
 		)
 		(property "AEC CATEGORY" "Q200"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7111,7 +7292,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "Ceramic"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7123,7 +7304,7 @@
 			)
 		)
 		(property "VALUEDISPLAYED" "1uF"
-			(at 153.416 105.156 0)
+			(at 153.924 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7134,7 +7315,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&fileName=C_CL31B105KCHNNNE.pdf"
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7146,7 +7327,7 @@
 			)
 		)
 		(property "ALTERNATE MANUFACTURER" ""
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7158,7 +7339,7 @@
 			)
 		)
 		(property "ALTERNATE PARTNUMBER" ""
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7170,7 +7351,7 @@
 			)
 		)
 		(property "ESR_OHM" ""
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7182,7 +7363,7 @@
 			)
 		)
 		(property "IRMS_A" ""
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7194,7 +7375,7 @@
 			)
 		)
 		(property "SUPPLIER 2" ""
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7206,7 +7387,7 @@
 			)
 		)
 		(property "SUPPLIER 3" ""
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7218,7 +7399,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" ""
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7230,7 +7411,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 3" ""
-			(at 148.844 94.742 0)
+			(at 148.844 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7257,8 +7438,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 57.15 144.78 0)
+		(lib_id "Device:R")
+		(at 44.45 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7266,10 +7447,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "696531ba-f8ff-40e1-8aa6-0a48f74beffd")
-		(property "Reference" "C8"
-			(at 60.96 143.5099 0)
+		(uuid "63ad4a54-832b-4c3d-830b-9b1fee3f435c")
+		(property "Reference" "R10"
+			(at 46.228 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7279,8 +7459,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3nF"
-			(at 60.96 146.0499 0)
+		(property "Value" "100k"
+			(at 46.228 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7290,8 +7470,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 58.1152 148.59 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 42.672 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7302,7 +7482,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 144.78 0)
+			(at 44.45 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2547cdb-a868-4ffa-8bba-40a0df6383a1")
+		)
+		(pin "2"
+			(uuid "b2288191-00d1-475c-958e-c37c5a8a463b")
+		)
+		(instances
+			(project "reaction_wheel"
+				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.15 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "696531ba-f8ff-40e1-8aa6-0a48f74beffd")
+		(property "Reference" "C8"
+			(at 59.944 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22nF"
+			(at 59.944 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 58.1152 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7313,7 +7574,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 57.15 144.78 0)
+			(at 57.15 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7340,7 +7601,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 35.56 130.81 0)
+		(at 44.45 125.73 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7350,29 +7612,29 @@
 		(dnp no)
 		(uuid "72ad4d4d-6f1b-49df-ab02-2ff5b9febda3")
 		(property "Reference" "R7"
-			(at 30.226 129.54 0)
+			(at 45.974 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 28.956 132.08 0)
+		(property "Value" "560k"
+			(at 45.974 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 33.782 130.81 90)
+			(at 46.228 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7383,7 +7645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 130.81 0)
+			(at 44.45 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7394,7 +7656,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 35.56 130.81 0)
+			(at 44.45 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7421,7 +7683,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 40.64 121.92 0)
+		(at 44.45 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7431,29 +7693,27 @@
 		(dnp no)
 		(uuid "7404747a-c358-4496-829a-43c5be612165")
 		(property "Reference" "TP3"
-			(at 39.37 113.284 0)
+			(at 44.45 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "VBAT"
-			(at 38.862 116.078 0)
+		(property "Value" "VIN"
+			(at 44.45 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 45.72 121.92 0)
+			(at 49.53 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7464,7 +7724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 121.92 0)
+			(at 49.53 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7475,7 +7735,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 40.64 121.92 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7498,8 +7758,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MD070B-altium-import:VBAT_BAR")
-		(at 29.21 121.92 180)
+		(lib_id "power:GND")
+		(at 242.57 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7507,9 +7767,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "76e6ac38-6ea7-4082-b979-e6e353e38e25")
-		(property "Reference" "#PWR012"
-			(at 29.21 121.92 0)
+		(uuid "7a1b1ed1-00e2-440b-ad6e-e47279b29ca8")
+		(property "Reference" "#PWR027"
+			(at 242.57 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7519,8 +7779,8 @@
 				)
 			)
 		)
-		(property "Value" "VBAT"
-			(at 29.21 118.11 0)
+		(property "Value" "PGND"
+			(at 242.57 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7530,7 +7790,8 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 121.92 0)
+			(at 242.57 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7540,7 +7801,8 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 121.92 0)
+			(at 242.57 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7549,8 +7811,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 121.92 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7559,13 +7822,13 @@
 				)
 			)
 		)
-		(pin ""
-			(uuid "58713cae-55f9-4148-81bf-4bd531e88fb0")
+		(pin "1"
+			(uuid "9f659f8a-f2fa-4000-80b2-fb4a307e8b38")
 		)
 		(instances
 			(project "reaction_wheel"
 				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
-					(reference "#PWR012")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7675,6 +7938,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 33.02 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9273c4cd-6234-4302-b605-5da89b0c59b5")
+		(property "Reference" "#PWR012"
+			(at 33.02 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIN"
+			(at 33.02 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 33.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95f00de4-c23a-43b8-8c64-b816fbb60b0c")
+		)
+		(instances
+			(project "reaction_wheel"
+				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 208.28 99.06 0)
 		(unit 1)
@@ -7772,6 +8112,159 @@
 			(project "reaction_wheel"
 				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99622b6a-ff78-4250-9e33-ad5eea8f28d7")
+		(property "Reference" "#PWR025"
+			(at 44.45 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 44.45 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c7354a3-2249-42d1-a4c3-dbc319586580")
+		)
+		(instances
+			(project "reaction_wheel"
+				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 219.71 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a068e88a-1a88-4ca7-a5f4-217c8be7e898")
+		(property "Reference" "TP1"
+			(at 219.71 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND"
+			(at 219.71 40.132 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 224.79 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 219.71 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "986448b0-b155-4030-9c5e-e3104a717c69")
+		)
+		(instances
+			(project "reaction_wheel"
+				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7881,8 +8374,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 57.15 148.59 0)
+		(lib_id "Connector:TestPoint")
+		(at 242.57 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7890,10 +8383,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ba54436f-1864-44c9-971a-25908dbad91c")
-		(property "Reference" "#PWR024"
-			(at 57.15 154.94 0)
-			(hide yes)
+		(uuid "a9b89fd4-15be-4657-bd4d-947a043ad2a1")
+		(property "Reference" "TP2"
+			(at 242.57 38.354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7903,7 +8395,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 57.404 151.892 0)
+			(at 242.57 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7912,8 +8404,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 57.15 148.59 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 247.65 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7924,7 +8416,282 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 148.59 0)
+			(at 247.65 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 242.57 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4d0acb3-1289-4447-8285-e9db0e101010")
+		)
+		(instances
+			(project "reaction_wheel"
+				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "5001_2")
+		(lib_id "Argus_RW_Library:5001")
+		(at 116.84 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "add1597d-5b05-4f61-9a16-56506cab6189")
+		(property "Reference" "TP11"
+			(at 116.84 125.73 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FLT_N"
+			(at 116.84 123.698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 116.84 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+			(at 116.84 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 116.84 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "5001"
+			(at 116.84 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "36-5001-ND"
+			(at 116.84 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "071e0d45-804f-45e8-bcf2-c7b2fb4f42e2")
+		)
+		(instances
+			(project "reaction_wheel"
+				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 250.19 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8747f62-b462-4fd5-9004-e0fb653ffdab")
+		(property "Reference" "#PWR013"
+			(at 250.19 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VM"
+			(at 250.19 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 250.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51c6aa8b-a686-42cc-a13d-0f49b4204777")
+		)
+		(instances
+			(project "reaction_wheel"
+				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba54436f-1864-44c9-971a-25908dbad91c")
+		(property "Reference" "#PWR024"
+			(at 57.15 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 57.15 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7935,7 +8702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 148.59 0)
+			(at 57.15 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8062,7 +8829,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 125.73 0)
+		(at 151.13 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8072,7 +8839,7 @@
 		(dnp no)
 		(uuid "c5cca761-36d5-4d5c-97a6-cf52033ecad1")
 		(property "Reference" "#PWR022"
-			(at 135.89 132.08 0)
+			(at 151.13 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8083,7 +8850,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 136.144 129.032 0)
+			(at 151.13 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8093,7 +8860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 125.73 0)
+			(at 151.13 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8104,7 +8871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 125.73 0)
+			(at 151.13 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8115,7 +8882,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 125.73 0)
+			(at 151.13 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8243,7 +9010,7 @@
 	(symbol
 		(lib_name "root_1_Capacitor_Altium Vault - TI_2")
 		(lib_id "Altium Vault - TI:root_1_Capacitor_Altium Vault - TI")
-		(at 181.61 100.33 180)
+		(at 181.61 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8253,7 +9020,7 @@
 		(dnp no)
 		(uuid "e0bd4dd9-8dd2-4910-b966-e742d00ef341")
 		(property "Reference" "C18"
-			(at 183.896 100.076 0)
+			(at 184.404 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8264,7 +9031,7 @@
 			)
 		)
 		(property "Value" "CGA3E2X7R2A102K080AA"
-			(at 175.26 107.95 0)
+			(at 175.26 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8276,7 +9043,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 181.61 100.33 0)
+			(at 181.61 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8287,7 +9054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 100.33 0)
+			(at 181.61 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8298,7 +9065,7 @@
 			)
 		)
 		(property "Description" "CAP, CERM, 1000 pF, 100 V, +/- 10%, X7R, AEC-Q200 Grade 1, 0603"
-			(at 181.61 100.33 0)
+			(at 181.61 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8309,7 +9076,7 @@
 			)
 		)
 		(property "POLARIZED" "N"
-			(at 173.482 110.49 0)
+			(at 173.482 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8321,7 +9088,7 @@
 			)
 		)
 		(property "COMPTYPE" "Capacitor"
-			(at 176.276 105.156 0)
+			(at 176.276 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8333,7 +9100,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1000pF"
-			(at 176.276 105.156 0)
+			(at 176.276 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8345,7 +9112,7 @@
 			)
 		)
 		(property "PARTNUMBER" "CGA3E2X7R2A102K080AA"
-			(at 176.276 94.488 0)
+			(at 176.276 99.568 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8357,7 +9124,7 @@
 			)
 		)
 		(property "VALUEDISPLAYED" "1000pF"
-			(at 183.896 102.616 0)
+			(at 184.404 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8368,7 +9135,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8380,7 +9147,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "0603"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8392,7 +9159,7 @@
 			)
 		)
 		(property "ROHS" "Y"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8404,7 +9171,7 @@
 			)
 		)
 		(property "U/M" "EA"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8416,7 +9183,7 @@
 			)
 		)
 		(property "CAP_F" "1nF"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8428,7 +9195,7 @@
 			)
 		)
 		(property "TOLERANCE_%" "10%"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8440,7 +9207,7 @@
 			)
 		)
 		(property "ESR_OHM" "1.97137"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8452,7 +9219,7 @@
 			)
 		)
 		(property "VALUE1" "1.97137 ohm"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8464,7 +9231,7 @@
 			)
 		)
 		(property "VDC_V" "100V"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8476,7 +9243,7 @@
 			)
 		)
 		(property "VALUE2" "100V"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8488,7 +9255,7 @@
 			)
 		)
 		(property "MOUNTTYPE" "SMT"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8500,7 +9267,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "Ceramic"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8512,7 +9279,7 @@
 			)
 		)
 		(property "TEMPCO" "X7R"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8524,7 +9291,7 @@
 			)
 		)
 		(property "IRMS_A" "305.705mA"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8536,7 +9303,7 @@
 			)
 		)
 		(property "TAMIN_C" "-55°C"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +9315,7 @@
 			)
 		)
 		(property "TAMAX_C" "125°C"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8560,7 +9327,7 @@
 			)
 		)
 		(property "CAP_CASE" "0603"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8572,7 +9339,7 @@
 			)
 		)
 		(property "PUBLISHED" "2008-06-19"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8584,7 +9351,7 @@
 			)
 		)
 		(property "PUBLISHER" "Texas Instruments"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8596,7 +9363,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2017-03-09"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8608,7 +9375,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet link"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8620,7 +9387,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E2X7R2A102K080AA"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8632,7 +9399,7 @@
 			)
 		)
 		(property "ALTERNATE PARTNUMBER" ""
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8644,7 +9411,7 @@
 			)
 		)
 		(property "ALTERNATE MANUFACTURER" ""
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8656,7 +9423,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8668,7 +9435,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "445-5806-1-ND"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8680,7 +9447,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8692,7 +9459,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "810-CGA3E2X7R2A102K080AA"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8704,7 +9471,7 @@
 			)
 		)
 		(property "SUPPLIER 3" ""
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8716,7 +9483,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 3" ""
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8728,7 +9495,7 @@
 			)
 		)
 		(property "AEC CATEGORY" "Q200"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8740,7 +9507,7 @@
 			)
 		)
 		(property "AEC QUALIFIED" "Y"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8752,7 +9519,7 @@
 			)
 		)
 		(property "AEC GRADE" "1"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8764,7 +9531,7 @@
 			)
 		)
 		(property "SIZEAREA_MM2" "1.28"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8776,7 +9543,7 @@
 			)
 		)
 		(property "SIZEAREAWB_MM2" "4.68"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8788,7 +9555,7 @@
 			)
 		)
 		(property "SIZEX_MM" "1.6"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8800,7 +9567,7 @@
 			)
 		)
 		(property "SIZEY_MM" "0.8"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8812,7 +9579,7 @@
 			)
 		)
 		(property "SIZEZ_MM" "1"
-			(at 176.276 91.948 0)
+			(at 176.276 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8841,7 +9608,7 @@
 	(symbol
 		(lib_name "root_1_Capacitor_Altium Vault - TI_4")
 		(lib_id "Altium Vault - TI:root_1_Capacitor_Altium Vault - TI")
-		(at 171.45 100.33 180)
+		(at 171.45 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8851,7 +9618,7 @@
 		(dnp no)
 		(uuid "e3ba986c-776a-4284-90fe-3a60a3c8c5db")
 		(property "Reference" "C17"
-			(at 173.736 100.076 0)
+			(at 174.244 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8862,7 +9629,7 @@
 			)
 		)
 		(property "Value" "CGA3E2X7R2A103K080AA"
-			(at 165.1 107.95 0)
+			(at 165.1 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8874,7 +9641,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 171.45 100.33 0)
+			(at 171.45 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8885,7 +9652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 100.33 0)
+			(at 171.45 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8896,7 +9663,7 @@
 			)
 		)
 		(property "Description" "CAP, CERM, 0.01 uF, 100 V, +/- 10%, X7R, AEC-Q200 Grade 1, 0603"
-			(at 171.45 100.33 0)
+			(at 171.45 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8907,7 +9674,7 @@
 			)
 		)
 		(property "POLARIZED" "N"
-			(at 163.322 110.49 0)
+			(at 163.322 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8919,7 +9686,7 @@
 			)
 		)
 		(property "COMPTYPE" "Capacitor"
-			(at 166.116 105.156 0)
+			(at 166.116 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8931,7 +9698,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0.01uF"
-			(at 166.116 105.156 0)
+			(at 166.116 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8943,7 +9710,7 @@
 			)
 		)
 		(property "PARTNUMBER" "CGA3E2X7R2A103K080AA"
-			(at 166.116 94.488 0)
+			(at 166.116 99.568 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8955,7 +9722,7 @@
 			)
 		)
 		(property "VALUEDISPLAYED" "0.01uF"
-			(at 173.736 102.616 0)
+			(at 174.244 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8966,7 +9733,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8978,7 +9745,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "0603"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8990,7 +9757,7 @@
 			)
 		)
 		(property "ROHS" "Y"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9002,7 +9769,7 @@
 			)
 		)
 		(property "U/M" "EA"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9014,7 +9781,7 @@
 			)
 		)
 		(property "CAP_F" "10nF"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9026,7 +9793,7 @@
 			)
 		)
 		(property "TOLERANCE_%" "10%"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9038,7 +9805,7 @@
 			)
 		)
 		(property "ESR_OHM" "0.235428"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9050,7 +9817,7 @@
 			)
 		)
 		(property "VALUE1" "0.235428 ohm"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9062,7 +9829,7 @@
 			)
 		)
 		(property "VDC_V" "100V"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9074,7 +9841,7 @@
 			)
 		)
 		(property "VALUE2" "100V"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9086,7 +9853,7 @@
 			)
 		)
 		(property "MOUNTTYPE" "SMT"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9098,7 +9865,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "Ceramic"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9110,7 +9877,7 @@
 			)
 		)
 		(property "TEMPCO" "X7R"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9122,7 +9889,7 @@
 			)
 		)
 		(property "IRMS_A" "396.995mA"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9134,7 +9901,7 @@
 			)
 		)
 		(property "TAMIN_C" "-55°C"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9146,7 +9913,7 @@
 			)
 		)
 		(property "TAMAX_C" "125°C"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9158,7 +9925,7 @@
 			)
 		)
 		(property "CAP_CASE" "0603"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9170,7 +9937,7 @@
 			)
 		)
 		(property "PUBLISHED" "2008-06-19"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9182,7 +9949,7 @@
 			)
 		)
 		(property "PUBLISHER" "Texas Instruments"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9194,7 +9961,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2017-03-09"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9206,7 +9973,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet link"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9218,7 +9985,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E2X7R2A103K080AA"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9230,7 +9997,7 @@
 			)
 		)
 		(property "ALTERNATE PARTNUMBER" ""
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9242,7 +10009,7 @@
 			)
 		)
 		(property "ALTERNATE MANUFACTURER" ""
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9254,7 +10021,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9266,7 +10033,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "445-5812-1-ND"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9278,7 +10045,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9290,7 +10057,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "810-CGA3E2X7R2A103K080AA"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9302,7 +10069,7 @@
 			)
 		)
 		(property "SUPPLIER 3" ""
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9314,7 +10081,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 3" ""
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9326,7 +10093,7 @@
 			)
 		)
 		(property "AEC CATEGORY" "Q200"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9338,7 +10105,7 @@
 			)
 		)
 		(property "AEC QUALIFIED" "Y"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9350,7 +10117,7 @@
 			)
 		)
 		(property "AEC GRADE" "1"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9362,7 +10129,7 @@
 			)
 		)
 		(property "SIZEAREA_MM2" "1.28"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9374,7 +10141,7 @@
 			)
 		)
 		(property "SIZEAREAWB_MM2" "4.68"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9386,7 +10153,7 @@
 			)
 		)
 		(property "SIZEX_MM" "1.6"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9398,7 +10165,7 @@
 			)
 		)
 		(property "SIZEY_MM" "0.8"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9410,7 +10177,7 @@
 			)
 		)
 		(property "SIZEZ_MM" "1"
-			(at 166.116 91.948 0)
+			(at 166.116 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9439,7 +10206,7 @@
 	(symbol
 		(lib_name "root_1_Capacitor_Altium Vault - TI_1")
 		(lib_id "Altium Vault - TI:root_1_Capacitor_Altium Vault - TI")
-		(at 229.87 100.33 180)
+		(at 229.87 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9449,7 +10216,7 @@
 		(dnp no)
 		(uuid "fb3079c7-0bb2-412c-8c74-c81ae6495eef")
 		(property "Reference" "C20"
-			(at 232.156 100.076 0)
+			(at 232.41 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9460,7 +10227,7 @@
 			)
 		)
 		(property "Value" "CGA3E2X7R2A103K080AA"
-			(at 223.52 107.95 0)
+			(at 223.52 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9472,7 +10239,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 229.87 100.33 0)
+			(at 229.87 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9483,7 +10250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 100.33 0)
+			(at 229.87 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9494,7 +10261,7 @@
 			)
 		)
 		(property "Description" "CAP, CERM, 0.01 uF, 100 V, +/- 10%, X7R, AEC-Q200 Grade 1, 0603"
-			(at 229.87 100.33 0)
+			(at 229.87 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9505,7 +10272,7 @@
 			)
 		)
 		(property "POLARIZED" "N"
-			(at 221.742 110.49 0)
+			(at 221.742 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9517,7 +10284,7 @@
 			)
 		)
 		(property "COMPTYPE" "Capacitor"
-			(at 224.536 105.156 0)
+			(at 224.536 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9529,7 +10296,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0.01uF"
-			(at 224.536 105.156 0)
+			(at 224.536 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9541,7 +10308,7 @@
 			)
 		)
 		(property "PARTNUMBER" "CGA3E2X7R2A103K080AA"
-			(at 224.536 94.488 0)
+			(at 224.536 99.568 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9553,7 +10320,7 @@
 			)
 		)
 		(property "VALUEDISPLAYED" "0.01uF"
-			(at 232.156 102.616 0)
+			(at 232.41 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9564,7 +10331,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9576,7 +10343,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "0603"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9588,7 +10355,7 @@
 			)
 		)
 		(property "ROHS" "Y"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9600,7 +10367,7 @@
 			)
 		)
 		(property "U/M" "EA"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9612,7 +10379,7 @@
 			)
 		)
 		(property "CAP_F" "10nF"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9624,7 +10391,7 @@
 			)
 		)
 		(property "TOLERANCE_%" "10%"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9636,7 +10403,7 @@
 			)
 		)
 		(property "ESR_OHM" "0.235428"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9648,7 +10415,7 @@
 			)
 		)
 		(property "VALUE1" "0.235428 ohm"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9660,7 +10427,7 @@
 			)
 		)
 		(property "VDC_V" "100V"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9672,7 +10439,7 @@
 			)
 		)
 		(property "VALUE2" "100V"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9684,7 +10451,7 @@
 			)
 		)
 		(property "MOUNTTYPE" "SMT"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9696,7 +10463,7 @@
 			)
 		)
 		(property "TECHNOLOGY" "Ceramic"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9708,7 +10475,7 @@
 			)
 		)
 		(property "TEMPCO" "X7R"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9720,7 +10487,7 @@
 			)
 		)
 		(property "IRMS_A" "396.995mA"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9732,7 +10499,7 @@
 			)
 		)
 		(property "TAMIN_C" "-55°C"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9744,7 +10511,7 @@
 			)
 		)
 		(property "TAMAX_C" "125°C"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9756,7 +10523,7 @@
 			)
 		)
 		(property "CAP_CASE" "0603"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9768,7 +10535,7 @@
 			)
 		)
 		(property "PUBLISHED" "2008-06-19"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9780,7 +10547,7 @@
 			)
 		)
 		(property "PUBLISHER" "Texas Instruments"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9792,7 +10559,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2017-03-09"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9804,7 +10571,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet link"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9816,7 +10583,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E2X7R2A103K080AA"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9828,7 +10595,7 @@
 			)
 		)
 		(property "ALTERNATE PARTNUMBER" ""
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9840,7 +10607,7 @@
 			)
 		)
 		(property "ALTERNATE MANUFACTURER" ""
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9852,7 +10619,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9864,7 +10631,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "445-5812-1-ND"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9876,7 +10643,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9888,7 +10655,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "810-CGA3E2X7R2A103K080AA"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9900,7 +10667,7 @@
 			)
 		)
 		(property "SUPPLIER 3" ""
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9912,7 +10679,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 3" ""
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9924,7 +10691,7 @@
 			)
 		)
 		(property "AEC CATEGORY" "Q200"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9936,7 +10703,7 @@
 			)
 		)
 		(property "AEC QUALIFIED" "Y"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9948,7 +10715,7 @@
 			)
 		)
 		(property "AEC GRADE" "1"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9960,7 +10727,7 @@
 			)
 		)
 		(property "SIZEAREA_MM2" "1.28"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9972,7 +10739,7 @@
 			)
 		)
 		(property "SIZEAREAWB_MM2" "4.68"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9984,7 +10751,7 @@
 			)
 		)
 		(property "SIZEX_MM" "1.6"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9996,7 +10763,7 @@
 			)
 		)
 		(property "SIZEY_MM" "0.8"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10008,7 +10775,7 @@
 			)
 		)
 		(property "SIZEZ_MM" "1"
-			(at 224.536 91.948 0)
+			(at 224.536 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10035,8 +10802,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MD070B-altium-import:VM_BAR")
-		(at 234.95 87.63 180)
+		(lib_id "power:GND")
+		(at 111.76 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10044,9 +10811,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fbee5225-0be7-4e20-a686-881cd3b52bbc")
-		(property "Reference" "#PWR015"
-			(at 234.95 87.63 0)
+		(uuid "fed5d6a9-c9b7-4ba4-92a3-10bac3987178")
+		(property "Reference" "#PWR033"
+			(at 111.76 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10056,8 +10823,8 @@
 				)
 			)
 		)
-		(property "Value" "VM"
-			(at 234.95 83.82 0)
+		(property "Value" "PGND"
+			(at 112.014 150.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10067,7 +10834,8 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 87.63 0)
+			(at 111.76 147.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10077,7 +10845,8 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 87.63 0)
+			(at 111.76 147.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10086,8 +10855,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 234.95 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 147.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10096,13 +10866,13 @@
 				)
 			)
 		)
-		(pin ""
-			(uuid "e507ba70-77de-41ec-b4e1-332b6625ad2b")
+		(pin "1"
+			(uuid "d1ac46d0-19c0-42ee-870a-05e8f7a362e5")
 		)
 		(instances
 			(project "reaction_wheel"
 				(path "/3eff537d-49a0-4056-9805-dac82285d05c/489eecf2-2757-47d8-a05b-ba179af48f41"
-					(reference "#PWR015")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
