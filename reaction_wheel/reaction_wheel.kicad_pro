@@ -666,7 +666,7 @@
         "uuid": "83c9da62-eccc-4dd3-8c41-467f1ce24646"
       }
     ],
-    "used_designators": "U1-13,TP6,C1-44,D2-4,D6,#PWR1-84,J1-12,R1-40,R49-50,NT1,L1-6",
+    "used_designators": "U1-13,TP6,C1-44,#PWR1-84,D2-4,D6,R1-40,R49-50,J1-12,NT1,L1-6",
     "variants": []
   },
   "sheets": [
