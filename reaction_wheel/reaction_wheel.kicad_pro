@@ -659,24 +659,19 @@
         "filename": "microcontroller_(1-axis_rw).kicad_sch",
         "name": "Microcontroller and Connectors (1-axis RW)",
         "uuid": "d62f89dd-8e84-4fc8-babe-edd9fd9c68a8"
-      },
-      {
-        "filename": "power.kicad_sch",
-        "name": "Power",
-        "uuid": "83c9da62-eccc-4dd3-8c41-467f1ce24646"
       }
     ],
-    "used_designators": "U1-13,TP6,C1-44,#PWR1-84,D2-4,D6,R1-40,R49-50,J1-12,NT1,L1-6",
+    "used_designators": "U1-13,TP6,C1-44,D2-4,D6,#PWR1-84,J1-12,R1-40,R49-50,NT1,L1-6",
     "variants": []
   },
   "sheets": [
     [
-      "83c9da62-eccc-4dd3-8c41-467f1ce24646",
-      "Power"
-    ],
-    [
       "d62f89dd-8e84-4fc8-babe-edd9fd9c68a8",
       "Microcontroller and Connectors (1-axis RW)"
+    ],
+    [
+      "24814897-c53b-403c-b3b3-1ec83f0b6784",
+      "Power"
     ]
   ],
   "text_variables": {},

@@ -7,5 +7,6 @@
 	(lib (name "SM04B_GHS_TB") (type "KiCad") (uri "/Users/sidrishasarbajna/Documents/KiCADv6/2026-08-18_03-02-24.kicad_sym") (options "") (descr ""))
 	(lib (name "SM02B_GHS_TB") (type "KiCad") (uri "/Users/sidrishasarbajna/Documents/KiCADv6/2026-08-18_03-10-36.kicad_sym") (options "") (descr ""))
 	(lib (name "SM08B_GHS_TB") (type "KiCad") (uri "/Users/sidrishasarbajna/Documents/KiCADv6 2/2026-08-18_03-17-03.kicad_sym") (options "") (descr ""))
-	(lib (name "QTH-030-01-X-D-A") (type "KiCad") (uri "C:/Users/arguscubesat/Downloads/QTH-030-01-X-D-A/QTH-030-01-X-D-A.kicad_sym") (options "") (descr ""))
+	(lib (name "QTH-030-01-X-D-A") (type "KiCad") (uri "C:/Users/arguscubesat/sidrisha/QTH-030-01-X-D-A/QTH-030-01-X-D-A.kicad_sym") (options "") (descr ""))
+	(lib (name "FTSH-105-01-L-DV") (type "KiCad") (uri "C:/Users/arguscubesat/sidrisha/FTSH_105_01_L_DV/KiCADv6/2026-09-02_22-36-41.kicad_sym") (options "") (descr ""))
 )
