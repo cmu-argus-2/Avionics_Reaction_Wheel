@@ -1,0 +1,14 @@
+# KiCad lock files (temporary system files created while editing)
+*.lck
+~*
+
+# KiCad user-specific workspace state and layout settings
+*.kicad_prl
+*.kicad_wks
+
+# Auto-generated project backup archives
+*-backups/
+
+# System / OS generated files
+.DS_Store
+Thumbs.db
