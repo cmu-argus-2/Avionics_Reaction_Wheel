@@ -11298,8 +11298,8 @@
 		)
 	)
 	(sheet
-		(at 215.9 20.32)
-		(size 48.26 39.37)
+		(at 248.92 17.78)
+		(size 26.67 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11314,7 +11314,7 @@
 		)
 		(uuid "24814897-c53b-403c-b3b3-1ec83f0b6784")
 		(property "Sheetname" "Power"
-			(at 215.9 19.6084 0)
+			(at 248.92 17.0684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11325,7 +11325,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 215.9 60.2746 0)
+			(at 248.92 43.7646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11349,8 +11349,8 @@
 		)
 	)
 	(sheet
-		(at 217.17 82.55)
-		(size 48.26 39.37)
+		(at 217.17 55.88)
+		(size 27.94 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11365,7 +11365,7 @@
 		)
 		(uuid "a975172b-7018-4d9a-85f4-38a87cca1921")
 		(property "Sheetname" "Magnetometer"
-			(at 217.17 81.8384 0)
+			(at 217.17 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11376,7 +11376,7 @@
 			)
 		)
 		(property "Sheetfile" "magnetometer.kicad_sch"
-			(at 217.17 122.5046 0)
+			(at 217.17 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11395,6 +11395,52 @@
 			(project "reaction_wheel"
 				(path "/d62f89dd-8e84-4fc8-babe-edd9fd9c68a8"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 55.88)
+		(size 26.67 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e7071f0d-69ba-4151-975c-d018c9367b13")
+		(property "Sheetname" "Gyro"
+			(at 248.92 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gyro.kicad_sch"
+			(at 248.92 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "reaction_wheel"
+				(path "/d62f89dd-8e84-4fc8-babe-edd9fd9c68a8"
+					(page "4")
 				)
 			)
 		)

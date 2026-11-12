@@ -8,6 +8,7 @@
 	(lib (name "SM08B_GHS_TB") (type "KiCad") (uri "/Users/sidrishasarbajna/Documents/KiCADv6 2/2026-08-18_03-17-03.kicad_sym") (options "") (descr ""))
 	(lib (name "QTH-030-01-X-D-A") (type "KiCad") (uri "C:/Users/arguscubesat/sidrisha/QTH-030-01-X-D-A/QTH-030-01-X-D-A.kicad_sym") (options "") (descr ""))
 	(lib (name "FTSH-105-01-L-DV") (type "KiCad") (uri "C:/Users/arguscubesat/sidrisha/FTSH_105_01_L_DV/KiCADv6/2026-09-02_22-36-41.kicad_sym") (options "") (descr ""))
-	(lib (name "RM3100_magnetometer") (type "KiCad") (uri "${KIPRJMOD}/Library/rm3100_13156.kicad_sym") (options "") (descr ""))
+	(lib (name "RM3100_magnetometer") (type "KiCad") (uri "${KIPRJMOD}/Library/rm3100_mag_ic.kicad_sym") (options "") (descr ""))
 	(lib (name "mcf8315c_motorDriverChip") (type "KiCad") (uri "${KIPRJMOD}/Library/mcf8315c.kicad_sym") (options "") (descr ""))
+	(lib (name "SCH16T-K01_gyro") (type "KiCad") (uri "${KIPRJMOD}/Library/SCH16T-K01-1.kicad_sym") (options "") (descr ""))
 )

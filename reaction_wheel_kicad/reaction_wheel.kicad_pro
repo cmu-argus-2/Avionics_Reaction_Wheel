@@ -661,7 +661,7 @@
         "uuid": "d62f89dd-8e84-4fc8-babe-edd9fd9c68a8"
       }
     ],
-    "used_designators": "L1-6,R1-40,R49-50,NT1,J1-12,#PWR1-84,D2-4,D6,C1-44,TP6,U1-13",
+    "used_designators": "SenY1,R_EXT1-2,L1-6,SenX1,SenZ1,U1-13,C1-44,RM3100_1,R1-40,R49-50,#PWR1-84,D2-4,D6,NT1,J1-12,TP6",
     "variants": []
   },
   "sheets": [
@@ -676,6 +676,10 @@
     [
       "a975172b-7018-4d9a-85f4-38a87cca1921",
       "Magnetometer"
+    ],
+    [
+      "e7071f0d-69ba-4151-975c-d018c9367b13",
+      "Gyro"
     ]
   ],
   "text_variables": {},
