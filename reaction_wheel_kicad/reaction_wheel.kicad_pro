@@ -525,7 +525,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
@@ -661,13 +661,17 @@
         "uuid": "d62f89dd-8e84-4fc8-babe-edd9fd9c68a8"
       }
     ],
-    "used_designators": "SenY1,R_EXT1-2,L1-6,SenX1,SenZ1,U1-13,C1-44,RM3100_1,R1-40,R49-50,#PWR1-84,D2-4,D6,NT1,J1-12,TP6",
+    "used_designators": "SenY1,R_EXT1-2,L1-6,#FLG4-7,SenZ1,SenX1,U1-13,RM3100_1,C1-44,#PWR1-84,#PWR97,D1-4,D6,H1-8,R1-40,R49-50,NT1,J1-12,TP6",
     "variants": []
   },
   "sheets": [
     [
       "d62f89dd-8e84-4fc8-babe-edd9fd9c68a8",
       "reaction_wheel"
+    ],
+    [
+      "60502fc1-0dd2-446e-8775-649fac277153",
+      "Connectors"
     ],
     [
       "24814897-c53b-403c-b3b3-1ec83f0b6784",

@@ -705,28 +705,28 @@
 		(solder_mask_margin 0.102)
 		(uuid "61286fa1-9f14-4a57-9c62-70b1dbabf606")
 	)
-	(pad "G1" smd rect
+	(pad "SH" smd rect
 		(at -8.445 0)
 		(size 2.54 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "7123b3a7-9243-441f-b1b2-2997e29534bc")
 	)
-	(pad "G2" smd rect
+	(pad "SH" smd rect
 		(at -3.175 0)
 		(size 4.7 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "e1992446-9aa5-4645-8143-c239662b4984")
 	)
-	(pad "G3" smd rect
+	(pad "SH" smd rect
 		(at 3.175 0)
 		(size 4.7 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "578c805b-f46f-4785-ab86-27810c192e22")
 	)
-	(pad "G4" smd rect
+	(pad "SH" smd rect
 		(at 8.445 0)
 		(size 2.54 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
